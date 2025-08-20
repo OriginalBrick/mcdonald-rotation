@@ -1,0 +1,15 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --file GWAS
+
+Hostname: c0156
+Working directory: /data/user/home/smith52/GWAS-Tutorial/leal/cleaning
+Start time: Wed Aug 20 12:15:37 2025
+
+Random number seed: 1755710137
+772506 MB RAM detected; reserving 386253 MB for main workspace.
+Scanning .ped file... done.
+Performing single-pass .bed write (6424 variants, 248 people).
+--file: plink.bed + plink.bim + plink.fam written.
+
+End time: Wed Aug 20 12:15:37 2025

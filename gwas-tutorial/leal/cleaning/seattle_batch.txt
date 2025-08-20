@@ -1,0 +1,5 @@
+# fileName SNPsummary.txt
+# searchType rs
+# displayType snpSummary
+
+

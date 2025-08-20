@@ -1,0 +1,39 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --file MAF_greater_5_clean
+  --merge MAF_less_5_clean.ped MAF_less_5_clean.map
+  --out GWAS_MAF_clean
+  --recode
+
+Hostname: c0189
+Working directory: /data/user/home/smith52/GWAS-Tutorial/leal/cleaning
+Start time: Wed Aug 20 13:36:48 2025
+
+Random number seed: 1755715008
+772506 MB RAM detected; reserving 386253 MB for main workspace.
+Scanning .ped file... done.
+Performing single-pass .bed write (5866 variants, 247 people).
+--file: GWAS_MAF_clean-temporary.bed + GWAS_MAF_clean-temporary.bim +
+GWAS_MAF_clean-temporary.fam written.
+247 people loaded from GWAS_MAF_clean-temporary.fam.
+247 people to be merged from MAF_less_5_clean.ped.
+Of these, 0 are new, while 247 are present in the base dataset.
+5866 markers loaded from GWAS_MAF_clean-temporary.bim.
+497 markers to be merged from MAF_less_5_clean.map.
+Of these, 497 are new, while 0 are present in the base dataset.
+Performing single-pass merge (247 people, 6363 variants).
+Merged fileset written to GWAS_MAF_clean.bed + GWAS_MAF_clean.bim +
+GWAS_MAF_clean.fam .
+6363 variants loaded from .bim file.
+247 people (125 males, 122 females) loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 247 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 6 het. haploid genotypes present (see GWAS_MAF_clean.hh ); many
+commands treat these as missing.
+Total genotyping rate is 0.99716.
+6363 variants and 247 people pass filters and QC.
+Note: No phenotypes present.
+--recode ped to GWAS_MAF_clean.ped + GWAS_MAF_clean.map ... done.
+
+End time: Wed Aug 20 13:36:48 2025

@@ -1,0 +1,30 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --check-sex
+  --file GWAS_clean2
+  --out GWAS_sex_checking
+
+Hostname: c0117
+Working directory: /data/user/home/smith52/GWAS-Tutorial/leal/cleaning
+Start time: Wed Aug 20 15:18:34 2025
+
+Random number seed: 1755721114
+192039 MB RAM detected; reserving 96019 MB for main workspace.
+Scanning .ped file... done.
+Performing single-pass .bed write (6363 variants, 247 people).
+--file: GWAS_sex_checking-temporary.bed + GWAS_sex_checking-temporary.bim +
+GWAS_sex_checking-temporary.fam written.
+6363 variants loaded from .bim file.
+247 people (125 males, 122 females) loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 247 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 6 het. haploid genotypes present (see GWAS_sex_checking.hh ); many
+commands treat these as missing.
+Total genotyping rate is 0.99716.
+6363 variants and 247 people pass filters and QC.
+Note: No phenotypes present.
+--check-sex: 186 Xchr and 0 Ychr variant(s) scanned, 5 problems detected.
+Report written to GWAS_sex_checking.sexcheck .
+
+End time: Wed Aug 20 15:18:34 2025
