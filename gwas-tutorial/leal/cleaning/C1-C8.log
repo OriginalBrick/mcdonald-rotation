@@ -1,0 +1,38 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --adjust
+  --covar plink.mds
+  --covar-name C1-C8
+  --file GWAS_clean4
+  --logistic
+  --out C1-C8
+  --pheno pheno.txt
+  --pheno-name Aff
+
+Hostname: c0118
+Working directory: /data/user/home/smith52/mcdonald-rotation/gwas-tutorial/leal/cleaning
+Start time: Thu Aug 21 14:21:04 2025
+
+Random number seed: 1755804064
+192039 MB RAM detected; reserving 96019 MB for main workspace.
+Scanning .ped file... done.
+Performing single-pass .bed write (6362 variants, 244 people).
+--file: C1-C8-temporary.bed + C1-C8-temporary.bim + C1-C8-temporary.fam
+written.
+6362 variants loaded from .bim file.
+244 people (123 males, 121 females) loaded from .fam.
+244 phenotype values present after --pheno.
+Using 1 thread (no multithreaded calculations invoked).
+--covar: 8 out of 11 covariates loaded.
+Before main variant filters, 244 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 6 het. haploid genotypes present (see C1-C8.hh ); many commands treat
+these as missing.
+Total genotyping rate is 0.997229.
+6362 variants and 244 people pass filters and QC.
+Among remaining phenotypes, 87 are cases and 157 are controls.
+Writing logistic model association results to C1-C8.assoc.logistic ... done.
+--adjust: Genomic inflation est. lambda (based on median chisq) = 1.05939.
+--adjust values (6346 variants) written to C1-C8.assoc.logistic.adjusted .
+
+End time: Thu Aug 21 14:21:04 2025
