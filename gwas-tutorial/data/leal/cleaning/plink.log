@@ -1,0 +1,38 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --cluster
+  --file GWAS_clean4
+  --genome
+  --mds-plot 10
+
+Hostname: c0118
+Working directory: /data/user/home/smith52/mcdonald-rotation/gwas-tutorial/leal/cleaning
+Start time: Thu Aug 21 13:55:25 2025
+
+Random number seed: 1755802525
+192039 MB RAM detected; reserving 96019 MB for main workspace.
+Scanning .ped file... done.
+Performing single-pass .bed write (6362 variants, 244 people).
+--file: plink-temporary.bed + plink-temporary.bim + plink-temporary.fam
+written.
+6362 variants loaded from .bim file.
+244 people (123 males, 121 females) loaded from .fam.
+Using up to 23 threads (change this with --threads).
+Before main variant filters, 244 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 6 het. haploid genotypes present (see plink.hh ); many commands treat
+these as missing.
+Total genotyping rate is 0.997229.
+6362 variants and 244 people pass filters and QC.
+Note: No phenotypes present.
+Excluding 186 variants on non-autosomes from IBD calculation.
+IBD calculations complete.
+Finished writing plink.genome .
+Clustering... done.
+Cluster solution written to plink.cluster1 , plink.cluster2 , and
+plink.cluster3 .
+Performing multidimensional scaling analysis (SVD algorithm, 10
+dimensions)... done.
+MDS solution written to plink.mds .
+
+End time: Thu Aug 21 13:55:27 2025

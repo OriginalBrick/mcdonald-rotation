@@ -1,0 +1,34 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --file GWAS_clean4
+  --out gwa_gabel
+  --pheno pheno.txt
+  --pheno-name Aff
+  --recode
+  --transpose
+
+Hostname: c0163
+Working directory: /data/user/home/smith52/mcdonald-rotation/gwas-tutorial/leal/cleaning
+Start time: Fri Aug 22 08:51:43 2025
+
+Note: --transpose flag deprecated.  Use "--recode transpose ...".
+Random number seed: 1755870703
+772506 MB RAM detected; reserving 386253 MB for main workspace.
+Scanning .ped file... done.
+Performing single-pass .bed write (6362 variants, 244 people).
+--file: gwa_gabel-temporary.bed + gwa_gabel-temporary.bim +
+gwa_gabel-temporary.fam written.
+6362 variants loaded from .bim file.
+244 people (123 males, 121 females) loaded from .fam.
+244 phenotype values present after --pheno.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 244 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 6 het. haploid genotypes present (see gwa_gabel.hh ); many commands
+treat these as missing.
+Total genotyping rate is 0.997229.
+6362 variants and 244 people pass filters and QC.
+Among remaining phenotypes, 87 are cases and 157 are controls.
+--recode transpose to gwa_gabel.tped + gwa_gabel.tfam ... done.
+
+End time: Fri Aug 22 08:51:43 2025

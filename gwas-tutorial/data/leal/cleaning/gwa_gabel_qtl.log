@@ -1,0 +1,25 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --file GWAS_clean4
+  --out gwa_gabel_qtl
+  --pheno pheno.txt
+  --pheno-name systolic
+  --recode
+  --transpose
+
+Hostname: c0163
+Working directory: /data/user/home/smith52/mcdonald-rotation/gwas-tutorial/leal/cleaning
+Start time: Fri Aug 22 08:52:20 2025
+
+Note: --transpose flag deprecated.  Use "--recode transpose ...".
+Random number seed: 1755870740
+772506 MB RAM detected; reserving 386253 MB for main workspace.
+Scanning .ped file... done.
+Performing single-pass .bed write (6362 variants, 244 people).
+--file: gwa_gabel_qtl-temporary.bed + gwa_gabel_qtl-temporary.bim +
+gwa_gabel_qtl-temporary.fam written.
+6362 variants loaded from .bim file.
+244 people (123 males, 121 females) loaded from .fam.
+Error: --pheno-name column not found.
+
+End time: Fri Aug 22 08:52:20 2025

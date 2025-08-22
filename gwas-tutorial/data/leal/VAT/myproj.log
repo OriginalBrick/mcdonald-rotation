@@ -1,0 +1,1020 @@
+2014-01-27 14:42:55,882: DEBUG: 
+2014-01-27 14:42:55,882: DEBUG: vtools init myproj
+2014-01-27 14:42:55,883: DEBUG: Using temporary directory /tmp/tmpIy4H4H
+2014-01-27 14:42:55,884: INFO: variant tools 2.2.0 : Copyright (c) 2011 - 2012 Bo Peng
+2014-01-27 14:42:55,885: INFO: San Lucas FA, Wang G, Scheet P, Peng B (2012) Bioinformatics 28(3):421-422
+2014-01-27 14:42:55,886: INFO: Please visit http://varianttools.sourceforge.net for more information.
+2014-01-27 14:42:55,886: INFO: Creating a new project myproj
+2014-01-27 14:42:55,888: DEBUG: Creating core tables
+2014-01-27 14:42:58,389: DEBUG: Download resource annoDB/CancerGeneCensus-20111215.ann
+2014-01-27 14:42:58,607: DEBUG: Download resource annoDB/CancerGeneCensus-20120315.ann
+2014-01-27 14:42:58,804: DEBUG: Download resource annoDB/CancerGeneCensus-20130711.ann
+2014-01-27 14:42:58,979: DEBUG: Download resource annoDB/CancerGeneCensus.ann
+2014-01-27 14:42:59,169: DEBUG: Download resource annoDB/CosmicCodingMuts-v61_260912.ann
+2014-01-27 14:42:59,335: DEBUG: Failed to check update: object of type 'NoneType' has no len()
+2014-01-27 14:43:55,270: DEBUG: 
+2014-01-27 14:43:55,270: DEBUG: vtools import 'CEU.exon.2010_03.genotypes.vcf.gz' 'YRI.exon.2010_03.genotypes.vcf.gz' --var_info DP filter --geno_info 'DP_geno' --build hg18
+2014-01-27 14:43:55,382: DEBUG: Using temporary directory /tmp/tmppXxYtx
+2014-01-27 14:43:55,383: DEBUG: Opening project myproj.proj
+2014-01-27 14:43:56,584: INFO: Importing variants from CEU.exon.2010_03.genotypes.vcf.gz (1/2)
+2014-01-27 14:44:02,144: INFO: 3,489 new variants (3,489 SNVs) from 3,500 lines are imported.
+2014-01-27 14:44:02,153: DEBUG: Workload of processes: [23, 23, 22, 22]
+2014-01-27 14:44:02,174: INFO: Importing variants from YRI.exon.2010_03.genotypes.vcf.gz (2/2)
+2014-01-27 14:44:02,184: DEBUG: Importer 0 starts with variants from 1 files
+2014-01-27 14:44:02,186: DEBUG: Importer 1 starts with variants from 1 files
+2014-01-27 14:44:02,189: DEBUG: Importer 0 starts importing genotypes for 23 samples (1 - 23)
+2014-01-27 14:44:02,197: DEBUG: Importer 2 starts with variants from 1 files
+2014-01-27 14:44:02,199: DEBUG: Importer 1 starts importing genotypes for 23 samples (24 - 46)
+2014-01-27 14:44:02,207: DEBUG: Importer 3 starts with variants from 1 files
+2014-01-27 14:44:02,208: DEBUG: Importer 2 starts importing genotypes for 22 samples (47 - 68)
+2014-01-27 14:44:02,215: DEBUG: Importer 3 starts importing genotypes for 22 samples (69 - 90)
+2014-01-27 14:44:07,194: INFO: Creating 23 genotype tables
+2014-01-27 14:44:07,206: INFO: Creating 23 genotype tables
+2014-01-27 14:44:07,220: INFO: Creating 22 genotype tables
+2014-01-27 14:44:07,223: INFO: Creating 22 genotype tables
+2014-01-27 14:44:14,684: INFO: 3,498 new variants (5,175 SNVs) from 5,186 lines are imported.
+2014-01-27 14:44:14,692: DEBUG: Workload of processes: [28, 28, 28, 28]
+2014-01-27 14:44:15,978: DEBUG: Importer 3 starts deduplicating 22 samples after importing genotypes in 13.8 seconds
+2014-01-27 14:44:15,979: DEBUG: Importing 22 samples (69 - 90) to tmp_0_3_genotype.DB took importer 3 13.8 seconds, 3 onging, 4 to go.
+2014-01-27 14:44:16,885: DEBUG: Importer 2 starts deduplicating 22 samples after importing genotypes in 14.7 seconds
+2014-01-27 14:44:16,886: DEBUG: Importing 22 samples (47 - 68) to tmp_0_2_genotype.DB took importer 2 14.7 seconds, 2 onging, 4 to go.
+2014-01-27 14:44:16,982: DEBUG: Importer 3 exits normally
+2014-01-27 14:44:17,164: DEBUG: Importer 0 starts deduplicating 23 samples after importing genotypes in 15.0 seconds
+2014-01-27 14:44:17,165: DEBUG: Importing 23 samples (1 - 23) to tmp_0_0_genotype.DB took importer 0 15.0 seconds, 1 onging, 4 to go.
+2014-01-27 14:44:17,265: DEBUG: Importer 1 starts deduplicating 23 samples after importing genotypes in 15.1 seconds
+2014-01-27 14:44:17,266: DEBUG: Importing 23 samples (24 - 46) to tmp_0_1_genotype.DB took importer 1 15.1 seconds, 0 onging, 4 to go.
+2014-01-27 14:44:17,890: DEBUG: Importer 2 exits normally
+2014-01-27 14:44:18,169: DEBUG: Importer 0 exits normally
+2014-01-27 14:44:18,269: DEBUG: Importer 1 exits normally
+2014-01-27 14:44:18,748: DEBUG: Importer 1 starts with variants from 2 files
+2014-01-27 14:44:18,751: DEBUG: Importer 0 starts with variants from 2 files
+2014-01-27 14:44:18,753: DEBUG: Importer 3 starts with variants from 2 files
+2014-01-27 14:44:18,755: DEBUG: Importer 1 starts importing genotypes for 28 samples (91 - 118)
+2014-01-27 14:44:18,761: DEBUG: Importer 2 starts with variants from 2 files
+2014-01-27 14:44:18,765: DEBUG: Importer 0 starts importing genotypes for 28 samples (119 - 146)
+2014-01-27 14:44:18,772: DEBUG: Importer 3 starts importing genotypes for 28 samples (147 - 174)
+2014-01-27 14:44:18,780: DEBUG: Importer 2 starts importing genotypes for 28 samples (175 - 202)
+2014-01-27 14:44:19,284: DEBUG: Copying 5 samples from tmp_0_3_genotype_3.DB took 1.6 seconds.
+2014-01-27 14:44:23,010: DEBUG: Copying 6 samples from tmp_0_2_genotype_1.DB took 3.7 seconds.
+2014-01-27 14:44:23,766: INFO: Creating 28 genotype tables
+2014-01-27 14:44:23,787: INFO: Creating 28 genotype tables
+2014-01-27 14:44:23,786: INFO: Creating 28 genotype tables
+2014-01-27 14:44:23,785: INFO: Creating 28 genotype tables
+2014-01-27 14:44:26,771: DEBUG: Copying 6 samples from tmp_0_0_genotype_0.DB took 3.8 seconds.
+2014-01-27 14:44:28,698: DEBUG: Copying 6 samples from tmp_0_1_genotype_0.DB took 1.9 seconds.
+2014-01-27 14:44:30,271: DEBUG: Copying 5 samples from tmp_0_3_genotype_2.DB took 1.6 seconds.
+2014-01-27 14:44:31,918: DEBUG: Copying 6 samples from tmp_0_3_genotype_1.DB took 1.6 seconds.
+2014-01-27 14:44:33,229: DEBUG: Copying 5 samples from tmp_0_2_genotype_3.DB took 1.3 seconds.
+2014-01-27 14:44:34,798: DEBUG: Copying 6 samples from tmp_0_3_genotype_0.DB took 1.6 seconds.
+2014-01-27 14:44:36,400: DEBUG: Copying 6 samples from tmp_0_2_genotype_0.DB took 1.6 seconds.
+2014-01-27 14:44:37,991: DEBUG: Copying 6 samples from tmp_0_1_genotype_1.DB took 1.6 seconds.
+2014-01-27 14:44:40,503: DEBUG: Importer 1 starts deduplicating 28 samples after importing genotypes in 21.7 seconds
+2014-01-27 14:44:40,505: DEBUG: Importing 28 samples (91 - 118) to tmp_1_0_genotype.DB took importer 1 21.7 seconds, 3 onging, 0 to go.
+2014-01-27 14:44:41,085: DEBUG: Copying 6 samples from tmp_0_1_genotype_2.DB took 3.1 seconds.
+2014-01-27 14:44:41,289: DEBUG: Importer 0 starts deduplicating 28 samples after importing genotypes in 22.5 seconds
+2014-01-27 14:44:41,291: DEBUG: Importing 28 samples (119 - 146) to tmp_1_1_genotype.DB took importer 0 22.5 seconds, 2 onging, 0 to go.
+2014-01-27 14:44:41,509: DEBUG: Importer 1 exits normally
+2014-01-27 14:44:41,523: DEBUG: Importer 3 starts deduplicating 28 samples after importing genotypes in 22.8 seconds
+2014-01-27 14:44:41,525: DEBUG: Importing 28 samples (147 - 174) to tmp_1_2_genotype.DB took importer 3 22.8 seconds, 1 onging, 0 to go.
+2014-01-27 14:44:41,548: DEBUG: Importer 2 starts deduplicating 28 samples after importing genotypes in 22.8 seconds
+2014-01-27 14:44:41,550: DEBUG: Importing 28 samples (175 - 202) to tmp_1_3_genotype.DB took importer 2 22.8 seconds, 0 onging, 0 to go.
+2014-01-27 14:44:41,895: DEBUG: Copying 2 samples from tmp_1_0_genotype_2.DB took 0.8 seconds.
+2014-01-27 14:44:42,294: DEBUG: Importer 0 exits normally
+2014-01-27 14:44:42,528: DEBUG: Importer 3 exits normally
+2014-01-27 14:44:42,553: DEBUG: Importer 2 exits normally
+2014-01-27 14:44:43,016: DEBUG: Copying 4 samples from tmp_1_0_genotype_2.DB took 1.1 seconds.
+2014-01-27 14:44:44,361: DEBUG: Copying 5 samples from tmp_1_1_genotype_3.DB took 1.3 seconds.
+2014-01-27 14:44:45,930: DEBUG: Copying 6 samples from tmp_1_3_genotype_2.DB took 1.6 seconds.
+2014-01-27 14:44:47,555: DEBUG: Copying 6 samples from tmp_1_3_genotype_0.DB took 1.6 seconds.
+2014-01-27 14:44:48,900: DEBUG: Copying 5 samples from tmp_1_0_genotype_3.DB took 1.3 seconds.
+2014-01-27 14:44:50,203: DEBUG: Copying 5 samples from tmp_1_0_genotype_4.DB took 1.3 seconds.
+2014-01-27 14:44:51,838: DEBUG: Copying 6 samples from tmp_1_1_genotype_0.DB took 1.6 seconds.
+2014-01-27 14:44:53,462: DEBUG: Copying 6 samples from tmp_0_0_genotype_2.DB took 1.6 seconds.
+2014-01-27 14:44:55,163: DEBUG: Copying 6 samples from tmp_1_2_genotype_2.DB took 1.7 seconds.
+2014-01-27 14:44:56,528: DEBUG: Copying 5 samples from tmp_1_1_genotype_4.DB took 1.4 seconds.
+2014-01-27 14:44:57,939: DEBUG: Copying 5 samples from tmp_1_3_genotype_3.DB took 1.4 seconds.
+2014-01-27 14:44:59,327: DEBUG: Copying 5 samples from tmp_1_2_genotype_4.DB took 1.4 seconds.
+2014-01-27 14:45:00,929: DEBUG: Copying 6 samples from tmp_1_2_genotype_0.DB took 1.6 seconds.
+2014-01-27 14:45:02,542: DEBUG: Copying 6 samples from tmp_1_0_genotype_1.DB took 1.6 seconds.
+2014-01-27 14:45:03,953: DEBUG: Copying 5 samples from tmp_1_3_genotype_4.DB took 1.4 seconds.
+2014-01-27 14:45:05,330: DEBUG: Copying 5 samples from tmp_0_1_genotype_3.DB took 1.4 seconds.
+2014-01-27 14:45:06,976: DEBUG: Copying 6 samples from tmp_1_1_genotype_1.DB took 1.6 seconds.
+2014-01-27 14:45:08,376: DEBUG: Copying 5 samples from tmp_0_0_genotype_3.DB took 1.4 seconds.
+2014-01-27 14:45:09,818: DEBUG: Copying 5 samples from tmp_0_2_genotype_2.DB took 1.4 seconds.
+2014-01-27 14:45:11,498: DEBUG: Copying 6 samples from tmp_1_1_genotype_2.DB took 1.7 seconds.
+2014-01-27 14:45:13,177: DEBUG: Copying 6 samples from tmp_0_0_genotype_1.DB took 1.7 seconds.
+2014-01-27 14:45:14,577: DEBUG: Copying 5 samples from tmp_1_2_genotype_3.DB took 1.4 seconds.
+2014-01-27 14:45:16,256: DEBUG: Copying 6 samples from tmp_1_0_genotype_0.DB took 1.7 seconds.
+2014-01-27 14:45:17,958: DEBUG: Copying 6 samples from tmp_1_2_genotype_1.DB took 1.7 seconds.
+2014-01-27 14:45:19,626: DEBUG: Copying 6 samples from tmp_1_3_genotype_1.DB took 1.7 seconds.
+2014-01-27 14:45:20,630: DEBUG: Genotype of 202 samples are copied
+2014-01-27 14:45:20,804: INFO: 6,987 new variants (8,664 SNVs) from 8,686 lines (202 samples) are imported.
+2014-01-27 14:46:17,461: DEBUG: 
+2014-01-27 14:46:17,462: DEBUG: vtools show project
+2014-01-27 14:46:17,462: DEBUG: Using temporary directory /tmp/tmpMrjnBb
+2014-01-27 14:46:17,463: DEBUG: Opening project myproj.proj
+2014-01-27 14:46:29,140: DEBUG: 
+2014-01-27 14:46:29,140: DEBUG: vtools show tables
+2014-01-27 14:46:29,141: DEBUG: Using temporary directory /tmp/tmp4wQN3_
+2014-01-27 14:46:29,141: DEBUG: Opening project myproj.proj
+2014-01-27 14:46:37,641: DEBUG: 
+2014-01-27 14:46:37,641: DEBUG: vtools show table variant
+2014-01-27 14:46:37,642: DEBUG: Using temporary directory /tmp/tmpnTmSa_
+2014-01-27 14:46:37,642: DEBUG: Opening project myproj.proj
+2014-01-27 14:46:53,764: DEBUG: 
+2014-01-27 14:46:53,764: DEBUG: vtools show samples
+2014-01-27 14:46:53,765: DEBUG: Using temporary directory /tmp/tmp_aC0JL
+2014-01-27 14:46:53,765: DEBUG: Opening project myproj.proj
+2014-01-27 14:47:04,767: DEBUG: 
+2014-01-27 14:47:04,767: DEBUG: vtools show genotypes
+2014-01-27 14:47:04,768: DEBUG: Using temporary directory /tmp/tmpu3OIvI
+2014-01-27 14:47:04,768: DEBUG: Opening project myproj.proj
+2014-01-27 14:47:12,829: DEBUG: 
+2014-01-27 14:47:12,829: DEBUG: vtools show fields
+2014-01-27 14:47:12,830: DEBUG: Using temporary directory /tmp/tmpqIC9eE
+2014-01-27 14:47:12,830: DEBUG: Opening project myproj.proj
+2014-01-27 14:47:12,834: DEBUG: No annotation database is attached.
+2014-01-27 14:48:23,381: DEBUG: 
+2014-01-27 14:48:23,381: DEBUG: vtools select variant -c
+2014-01-27 14:48:23,382: DEBUG: Using temporary directory /tmp/tmplu_Nr2
+2014-01-27 14:48:23,382: DEBUG: Opening project myproj.proj
+2014-01-27 14:48:23,386: DEBUG: Running query SELECT COUNT(DISTINCT variant.variant_id) FROM variant   WHERE 1 ;
+2014-01-27 14:48:53,968: DEBUG: 
+2014-01-27 14:48:53,968: DEBUG: vtools show genotypes -v2
+2014-01-27 14:48:53,969: DEBUG: Using temporary directory /tmp/tmpchTk6v
+2014-01-27 14:48:53,970: DEBUG: Opening project myproj.proj
+2014-01-27 14:49:25,653: DEBUG: 
+2014-01-27 14:49:25,654: DEBUG: vtools select variant -o 'max(DP)'
+2014-01-27 14:49:25,654: DEBUG: Using temporary directory /tmp/tmp845Q4J
+2014-01-27 14:49:25,654: DEBUG: Opening project myproj.proj
+2014-01-27 14:49:25,659: DEBUG: Running query SELECT max (variant.DP ) FROM variant  WHERE (variant.variant_id  IN (SELECT DISTINCT variant.variant_id FROM variant   WHERE 1 ))   ;
+2014-01-27 14:49:33,801: DEBUG: 
+2014-01-27 14:49:33,801: DEBUG: vtools select variant -o 'min(DP)'
+2014-01-27 14:49:33,802: DEBUG: Using temporary directory /tmp/tmpXBW9lL
+2014-01-27 14:49:33,802: DEBUG: Opening project myproj.proj
+2014-01-27 14:49:33,807: DEBUG: Running query SELECT min (variant.DP ) FROM variant  WHERE (variant.variant_id  IN (SELECT DISTINCT variant.variant_id FROM variant   WHERE 1 ))   ;
+2014-01-27 14:49:39,320: DEBUG: 
+2014-01-27 14:49:39,321: DEBUG: vtools select variant -o 'avg(DP)'
+2014-01-27 14:49:39,322: DEBUG: Using temporary directory /tmp/tmpEU0sHn
+2014-01-27 14:49:39,322: DEBUG: Opening project myproj.proj
+2014-01-27 14:49:39,327: DEBUG: Running query SELECT avg (variant.DP ) FROM variant  WHERE (variant.variant_id  IN (SELECT DISTINCT variant.variant_id FROM variant   WHERE 1 ))   ;
+2014-01-27 14:50:25,771: DEBUG: 
+2014-01-27 14:50:25,771: DEBUG: vtools select variant "filter='PASS'" -c
+2014-01-27 14:50:25,772: DEBUG: Using temporary directory /tmp/tmpkG9S3K
+2014-01-27 14:50:25,772: DEBUG: Opening project myproj.proj
+2014-01-27 14:50:25,777: DEBUG: Running query SELECT COUNT(DISTINCT variant.variant_id) FROM variant   WHERE ((variant.filter ='PASS'));
+2014-01-27 14:51:14,976: DEBUG: 
+2014-01-27 14:51:14,977: DEBUG: vtools select variant 'DP<15' -t 'to_remove'
+2014-01-27 14:51:14,977: DEBUG: Using temporary directory /tmp/tmp058g7z
+2014-01-27 14:51:14,977: DEBUG: Opening project myproj.proj
+2014-01-27 14:51:15,538: DEBUG: Running query INSERT INTO to_remove SELECT DISTINCT variant.variant_id FROM variant   WHERE ((variant.DP <15 ));
+2014-01-27 14:51:15,695: INFO: 1 variants selected.
+2014-01-27 14:51:23,266: DEBUG: 
+2014-01-27 14:51:23,267: DEBUG: vtools show fields
+2014-01-27 14:51:23,267: DEBUG: Using temporary directory /tmp/tmpZSlwty
+2014-01-27 14:51:23,267: DEBUG: Opening project myproj.proj
+2014-01-27 14:51:23,423: DEBUG: No annotation database is attached.
+2014-01-27 14:51:38,509: DEBUG: 
+2014-01-27 14:51:38,510: DEBUG: vtools show tables
+2014-01-27 14:51:38,510: DEBUG: Using temporary directory /tmp/tmp9uOqGd
+2014-01-27 14:51:38,510: DEBUG: Opening project myproj.proj
+2014-01-27 14:51:54,926: DEBUG: 
+2014-01-27 14:51:54,926: DEBUG: vtools remove variants 'to_remove' -v0
+2014-01-27 14:51:54,927: DEBUG: Using temporary directory /tmp/tmpdnDJuF
+2014-01-27 14:51:54,927: DEBUG: Opening project myproj.proj
+2014-01-27 14:51:54,934: INFO: 1 variants are removed from the master variant table.
+2014-01-27 14:51:55,223: INFO: 0 genotypes are removed from sample NA06984
+2014-01-27 14:51:55,381: INFO: 0 genotypes are removed from sample NA06985
+2014-01-27 14:51:55,527: INFO: 0 genotypes are removed from sample NA06986
+2014-01-27 14:51:55,672: INFO: 0 genotypes are removed from sample NA06989
+2014-01-27 14:51:55,836: INFO: 0 genotypes are removed from sample NA06994
+2014-01-27 14:51:55,994: INFO: 0 genotypes are removed from sample NA07000
+2014-01-27 14:51:56,139: INFO: 0 genotypes are removed from sample NA07037
+2014-01-27 14:51:56,285: INFO: 0 genotypes are removed from sample NA07048
+2014-01-27 14:51:56,419: INFO: 0 genotypes are removed from sample NA07051
+2014-01-27 14:51:56,565: INFO: 0 genotypes are removed from sample NA07346
+2014-01-27 14:51:56,721: INFO: 0 genotypes are removed from sample NA07347
+2014-01-27 14:51:56,878: INFO: 0 genotypes are removed from sample NA07357
+2014-01-27 14:51:57,034: INFO: 0 genotypes are removed from sample NA10847
+2014-01-27 14:51:57,191: INFO: 0 genotypes are removed from sample NA10851
+2014-01-27 14:51:57,358: INFO: 0 genotypes are removed from sample NA11829
+2014-01-27 14:51:57,526: INFO: 0 genotypes are removed from sample NA11830
+2014-01-27 14:51:57,695: INFO: 0 genotypes are removed from sample NA11831
+2014-01-27 14:51:57,841: INFO: 0 genotypes are removed from sample NA11832
+2014-01-27 14:51:57,986: INFO: 0 genotypes are removed from sample NA11840
+2014-01-27 14:51:58,143: INFO: 0 genotypes are removed from sample NA11843
+2014-01-27 14:51:58,288: INFO: 0 genotypes are removed from sample NA11881
+2014-01-27 14:51:58,445: INFO: 0 genotypes are removed from sample NA11893
+2014-01-27 14:51:58,612: INFO: 0 genotypes are removed from sample NA11918
+2014-01-27 14:51:58,769: INFO: 0 genotypes are removed from sample NA11919
+2014-01-27 14:51:58,925: INFO: 0 genotypes are removed from sample NA11920
+2014-01-27 14:51:59,093: INFO: 0 genotypes are removed from sample NA11930
+2014-01-27 14:51:59,249: INFO: 0 genotypes are removed from sample NA11992
+2014-01-27 14:51:59,384: INFO: 0 genotypes are removed from sample NA11994
+2014-01-27 14:51:59,520: INFO: 0 genotypes are removed from sample NA11995
+2014-01-27 14:51:59,665: INFO: 0 genotypes are removed from sample NA12003
+2014-01-27 14:51:59,833: INFO: 0 genotypes are removed from sample NA12004
+2014-01-27 14:51:59,989: INFO: 0 genotypes are removed from sample NA12005
+2014-01-27 14:52:00,157: INFO: 0 genotypes are removed from sample NA12006
+2014-01-27 14:52:00,332: INFO: 0 genotypes are removed from sample NA12043
+2014-01-27 14:52:00,492: INFO: 0 genotypes are removed from sample NA12044
+2014-01-27 14:52:00,649: INFO: 0 genotypes are removed from sample NA12045
+2014-01-27 14:52:00,805: INFO: 0 genotypes are removed from sample NA12058
+2014-01-27 14:52:00,962: INFO: 0 genotypes are removed from sample NA12144
+2014-01-27 14:52:01,107: INFO: 0 genotypes are removed from sample NA12154
+2014-01-27 14:52:01,265: INFO: 0 genotypes are removed from sample NA12155
+2014-01-27 14:52:01,411: INFO: 0 genotypes are removed from sample NA12156
+2014-01-27 14:52:01,556: INFO: 0 genotypes are removed from sample NA12234
+2014-01-27 14:52:01,724: INFO: 0 genotypes are removed from sample NA12249
+2014-01-27 14:52:01,892: INFO: 0 genotypes are removed from sample NA12272
+2014-01-27 14:52:02,048: INFO: 0 genotypes are removed from sample NA12273
+2014-01-27 14:52:02,205: INFO: 0 genotypes are removed from sample NA12275
+2014-01-27 14:52:02,350: INFO: 0 genotypes are removed from sample NA12282
+2014-01-27 14:52:02,496: INFO: 0 genotypes are removed from sample NA12283
+2014-01-27 14:52:02,652: INFO: 0 genotypes are removed from sample NA12286
+2014-01-27 14:52:02,786: INFO: 0 genotypes are removed from sample NA12287
+2014-01-27 14:52:02,943: INFO: 0 genotypes are removed from sample NA12340
+2014-01-27 14:52:03,101: INFO: 0 genotypes are removed from sample NA12341
+2014-01-27 14:52:03,258: INFO: 0 genotypes are removed from sample NA12342
+2014-01-27 14:52:03,414: INFO: 0 genotypes are removed from sample NA12347
+2014-01-27 14:52:03,582: INFO: 0 genotypes are removed from sample NA12348
+2014-01-27 14:52:03,738: INFO: 0 genotypes are removed from sample NA12383
+2014-01-27 14:52:03,895: INFO: 0 genotypes are removed from sample NA12400
+2014-01-27 14:52:04,062: INFO: 0 genotypes are removed from sample NA12413
+2014-01-27 14:52:04,208: INFO: 0 genotypes are removed from sample NA12414
+2014-01-27 14:52:04,353: INFO: 0 genotypes are removed from sample NA12489
+2014-01-27 14:52:04,499: INFO: 0 genotypes are removed from sample NA12546
+2014-01-27 14:52:04,644: INFO: 0 genotypes are removed from sample NA12716
+2014-01-27 14:52:04,791: INFO: 0 genotypes are removed from sample NA12717
+2014-01-27 14:52:04,948: INFO: 0 genotypes are removed from sample NA12718
+2014-01-27 14:52:05,104: INFO: 0 genotypes are removed from sample NA12748
+2014-01-27 14:52:05,261: INFO: 0 genotypes are removed from sample NA12749
+2014-01-27 14:52:05,428: INFO: 0 genotypes are removed from sample NA12750
+2014-01-27 14:52:05,596: INFO: 0 genotypes are removed from sample NA12751
+2014-01-27 14:52:05,764: INFO: 0 genotypes are removed from sample NA12760
+2014-01-27 14:52:05,909: INFO: 0 genotypes are removed from sample NA12761
+2014-01-27 14:52:06,055: INFO: 0 genotypes are removed from sample NA12762
+2014-01-27 14:52:06,200: INFO: 0 genotypes are removed from sample NA12763
+2014-01-27 14:52:06,356: INFO: 0 genotypes are removed from sample NA12775
+2014-01-27 14:52:06,502: INFO: 0 genotypes are removed from sample NA12776
+2014-01-27 14:52:06,671: INFO: 0 genotypes are removed from sample NA12812
+2014-01-27 14:52:06,850: INFO: 0 genotypes are removed from sample NA12814
+2014-01-27 14:52:06,995: INFO: 0 genotypes are removed from sample NA12815
+2014-01-27 14:52:07,152: INFO: 0 genotypes are removed from sample NA12828
+2014-01-27 14:52:07,308: INFO: 0 genotypes are removed from sample NA12829
+2014-01-27 14:52:07,465: INFO: 0 genotypes are removed from sample NA12830
+2014-01-27 14:52:07,621: INFO: 0 genotypes are removed from sample NA12842
+2014-01-27 14:52:07,778: INFO: 0 genotypes are removed from sample NA12843
+2014-01-27 14:52:07,923: INFO: 0 genotypes are removed from sample NA12872
+2014-01-27 14:52:08,080: INFO: 0 genotypes are removed from sample NA12873
+2014-01-27 14:52:08,225: INFO: 0 genotypes are removed from sample NA12874
+2014-01-27 14:52:08,372: INFO: 0 genotypes are removed from sample NA12878
+2014-01-27 14:52:08,529: INFO: 0 genotypes are removed from sample NA12889
+2014-01-27 14:52:08,697: INFO: 0 genotypes are removed from sample NA12890
+2014-01-27 14:52:08,853: INFO: 0 genotypes are removed from sample NA12891
+2014-01-27 14:52:09,021: INFO: 0 genotypes are removed from sample NA12892
+2014-01-27 14:52:09,200: INFO: 0 genotypes are removed from sample NA18486
+2014-01-27 14:52:09,378: INFO: 0 genotypes are removed from sample NA18488
+2014-01-27 14:52:09,524: INFO: 0 genotypes are removed from sample NA18489
+2014-01-27 14:52:09,703: INFO: 0 genotypes are removed from sample NA18498
+2014-01-27 14:52:09,870: INFO: 0 genotypes are removed from sample NA18499
+2014-01-27 14:52:10,038: INFO: 0 genotypes are removed from sample NA18501
+2014-01-27 14:52:10,205: INFO: 0 genotypes are removed from sample NA18504
+2014-01-27 14:52:10,364: INFO: 0 genotypes are removed from sample NA18508
+2014-01-27 14:52:10,498: INFO: 0 genotypes are removed from sample NA18516
+2014-01-27 14:52:10,654: INFO: 0 genotypes are removed from sample NA18519
+2014-01-27 14:52:10,800: INFO: 0 genotypes are removed from sample NA18520
+2014-01-27 14:52:10,934: INFO: 0 genotypes are removed from sample NA18522
+2014-01-27 14:52:11,102: INFO: 0 genotypes are removed from sample NA18523
+2014-01-27 14:52:11,269: INFO: 0 genotypes are removed from sample NA18853
+2014-01-27 14:52:11,437: INFO: 0 genotypes are removed from sample NA18856
+2014-01-27 14:52:11,616: INFO: 0 genotypes are removed from sample NA18858
+2014-01-27 14:52:11,783: INFO: 0 genotypes are removed from sample NA18861
+2014-01-27 14:52:11,962: INFO: 0 genotypes are removed from sample NA18865
+2014-01-27 14:52:12,109: INFO: 0 genotypes are removed from sample NA18867
+2014-01-27 14:52:12,255: INFO: 0 genotypes are removed from sample NA18868
+2014-01-27 14:52:12,400: INFO: 0 genotypes are removed from sample NA18870
+2014-01-27 14:52:12,545: INFO: 0 genotypes are removed from sample NA18871
+2014-01-27 14:52:12,713: INFO: 0 genotypes are removed from sample NA18877
+2014-01-27 14:52:12,881: INFO: 0 genotypes are removed from sample NA18881
+2014-01-27 14:52:13,060: INFO: 0 genotypes are removed from sample NA18907
+2014-01-27 14:52:13,238: INFO: 0 genotypes are removed from sample NA18909
+2014-01-27 14:52:13,406: INFO: 0 genotypes are removed from sample NA18910
+2014-01-27 14:52:13,574: INFO: 0 genotypes are removed from sample NA18915
+2014-01-27 14:52:13,741: INFO: 0 genotypes are removed from sample NA18916
+2014-01-27 14:52:13,898: INFO: 0 genotypes are removed from sample NA18917
+2014-01-27 14:52:14,056: INFO: 0 genotypes are removed from sample NA18923
+2014-01-27 14:52:14,201: INFO: 0 genotypes are removed from sample NA18924
+2014-01-27 14:52:14,369: INFO: 0 genotypes are removed from sample NA18933
+2014-01-27 14:52:14,525: INFO: 0 genotypes are removed from sample NA18934
+2014-01-27 14:52:14,693: INFO: 0 genotypes are removed from sample NA19092
+2014-01-27 14:52:14,861: INFO: 0 genotypes are removed from sample NA19095
+2014-01-27 14:52:15,028: INFO: 0 genotypes are removed from sample NA19096
+2014-01-27 14:52:15,196: INFO: 0 genotypes are removed from sample NA19098
+2014-01-27 14:52:15,375: INFO: 0 genotypes are removed from sample NA19102
+2014-01-27 14:52:15,542: INFO: 0 genotypes are removed from sample NA19105
+2014-01-27 14:52:15,699: INFO: 0 genotypes are removed from sample NA19108
+2014-01-27 14:52:15,857: INFO: 0 genotypes are removed from sample NA19113
+2014-01-27 14:52:16,003: INFO: 0 genotypes are removed from sample NA19116
+2014-01-27 14:52:16,137: INFO: 0 genotypes are removed from sample NA19117
+2014-01-27 14:52:16,293: INFO: 0 genotypes are removed from sample NA19118
+2014-01-27 14:52:16,439: INFO: 0 genotypes are removed from sample NA19119
+2014-01-27 14:52:16,606: INFO: 0 genotypes are removed from sample NA19121
+2014-01-27 14:52:16,763: INFO: 0 genotypes are removed from sample NA19122
+2014-01-27 14:52:16,942: INFO: 0 genotypes are removed from sample NA19130
+2014-01-27 14:52:17,121: INFO: 0 genotypes are removed from sample NA19131
+2014-01-27 14:52:17,288: INFO: 0 genotypes are removed from sample NA19133
+2014-01-27 14:52:17,445: INFO: 0 genotypes are removed from sample NA19135
+2014-01-27 14:52:17,590: INFO: 0 genotypes are removed from sample NA19137
+2014-01-27 14:52:17,737: INFO: 0 genotypes are removed from sample NA19138
+2014-01-27 14:52:17,894: INFO: 0 genotypes are removed from sample NA19141
+2014-01-27 14:52:18,050: INFO: 0 genotypes are removed from sample NA19143
+2014-01-27 14:52:18,218: INFO: 0 genotypes are removed from sample NA19146
+2014-01-27 14:52:18,385: INFO: 0 genotypes are removed from sample NA19149
+2014-01-27 14:52:18,542: INFO: 0 genotypes are removed from sample NA19150
+2014-01-27 14:52:18,699: INFO: 0 genotypes are removed from sample NA19152
+2014-01-27 14:52:18,866: INFO: 0 genotypes are removed from sample NA19153
+2014-01-27 14:52:19,034: INFO: 0 genotypes are removed from sample NA19156
+2014-01-27 14:52:19,213: INFO: 0 genotypes are removed from sample NA19157
+2014-01-27 14:52:19,358: INFO: 0 genotypes are removed from sample NA19159
+2014-01-27 14:52:19,505: INFO: 0 genotypes are removed from sample NA19163
+2014-01-27 14:52:19,651: INFO: 0 genotypes are removed from sample NA19166
+2014-01-27 14:52:19,785: INFO: 0 genotypes are removed from sample NA19168
+2014-01-27 14:52:19,930: INFO: 0 genotypes are removed from sample NA19171
+2014-01-27 14:52:20,087: INFO: 0 genotypes are removed from sample NA19172
+2014-01-27 14:52:20,254: INFO: 0 genotypes are removed from sample NA19175
+2014-01-27 14:52:20,433: INFO: 0 genotypes are removed from sample NA19179
+2014-01-27 14:52:20,601: INFO: 0 genotypes are removed from sample NA19181
+2014-01-27 14:52:20,768: INFO: 0 genotypes are removed from sample NA19182
+2014-01-27 14:52:20,936: INFO: 0 genotypes are removed from sample NA19184
+2014-01-27 14:52:21,081: INFO: 0 genotypes are removed from sample NA19185
+2014-01-27 14:52:21,227: INFO: 0 genotypes are removed from sample NA19187
+2014-01-27 14:52:21,385: INFO: 0 genotypes are removed from sample NA19189
+2014-01-27 14:52:21,542: INFO: 0 genotypes are removed from sample NA19190
+2014-01-27 14:52:21,709: INFO: 0 genotypes are removed from sample NA19195
+2014-01-27 14:52:21,877: INFO: 0 genotypes are removed from sample NA19196
+2014-01-27 14:52:22,056: INFO: 0 genotypes are removed from sample NA19197
+2014-01-27 14:52:22,234: INFO: 0 genotypes are removed from sample NA19198
+2014-01-27 14:52:22,402: INFO: 0 genotypes are removed from sample NA19200
+2014-01-27 14:52:22,570: INFO: 0 genotypes are removed from sample NA19201
+2014-01-27 14:52:22,715: INFO: 0 genotypes are removed from sample NA19204
+2014-01-27 14:52:22,860: INFO: 0 genotypes are removed from sample NA19206
+2014-01-27 14:52:23,017: INFO: 0 genotypes are removed from sample NA19207
+2014-01-27 14:52:23,164: INFO: 0 genotypes are removed from sample NA19209
+2014-01-27 14:52:23,321: INFO: 0 genotypes are removed from sample NA19210
+2014-01-27 14:52:23,499: INFO: 0 genotypes are removed from sample NA19213
+2014-01-27 14:52:23,678: INFO: 0 genotypes are removed from sample NA19214
+2014-01-27 14:52:23,857: INFO: 0 genotypes are removed from sample NA19216
+2014-01-27 14:52:24,024: INFO: 0 genotypes are removed from sample NA19217
+2014-01-27 14:52:24,192: INFO: 0 genotypes are removed from sample NA19220
+2014-01-27 14:52:24,360: INFO: 0 genotypes are removed from sample NA19222
+2014-01-27 14:52:24,505: INFO: 0 genotypes are removed from sample NA19223
+2014-01-27 14:52:24,662: INFO: 0 genotypes are removed from sample NA19225
+2014-01-27 14:52:24,818: INFO: 0 genotypes are removed from sample NA19229
+2014-01-27 14:52:24,964: INFO: 0 genotypes are removed from sample NA19235
+2014-01-27 14:52:25,209: INFO: 0 genotypes are removed from sample NA19236
+2014-01-27 14:52:25,379: INFO: 0 genotypes are removed from sample NA19238
+2014-01-27 14:52:25,546: INFO: 0 genotypes are removed from sample NA19239
+2014-01-27 14:52:25,725: INFO: 1 genotypes are removed from sample NA19240
+2014-01-27 14:52:26,038: INFO: 0 genotypes are removed from sample NA19247
+2014-01-27 14:52:26,194: INFO: 0 genotypes are removed from sample NA19248
+2014-01-27 14:52:26,340: INFO: 0 genotypes are removed from sample NA19250
+2014-01-27 14:52:26,474: INFO: 0 genotypes are removed from sample NA19253
+2014-01-27 14:52:26,608: INFO: 0 genotypes are removed from sample NA19257
+2014-01-27 14:52:26,743: INFO: 0 genotypes are removed from sample NA19259
+2014-01-27 14:52:26,890: INFO: 0 genotypes are removed from sample NA19260
+2014-01-27 14:52:27,068: INFO: 0 genotypes are removed from sample NA19262
+2014-01-27 14:52:27,236: INFO: 0 genotypes are removed from sample NA19266
+2014-01-27 14:52:27,236: INFO: Removing table to_remove itself
+2014-01-27 14:55:15,189: DEBUG: 
+2014-01-27 14:55:15,189: DEBUG: vtools update variant --from_stat 'total=#(GT)' 'num=#(alt)' 'het=#(het)' 'hom=#(hom)' 'other=#(other)' 'minDP=min(DP_geno)' 'maxDP=max(DP_geno)' 'meanDP=avg(DP_geno)'
+2014-01-27 14:55:15,190: DEBUG: Using temporary directory /tmp/tmpBJisih
+2014-01-27 14:55:15,190: DEBUG: Opening project myproj.proj
+2014-01-27 14:55:24,097: INFO: Adding variant info field num with type INT
+2014-01-27 14:55:24,541: INFO: Adding variant info field hom with type INT
+2014-01-27 14:55:24,988: INFO: Adding variant info field het with type INT
+2014-01-27 14:55:25,482: INFO: Adding variant info field other with type INT
+2014-01-27 14:55:25,951: INFO: Adding variant info field total with type INT
+2014-01-27 14:55:26,398: INFO: Adding variant info field minDP with type INT
+2014-01-27 14:55:26,678: INFO: Adding variant info field maxDP with type INT
+2014-01-27 14:55:26,970: INFO: Adding variant info field meanDP with type FLOAT
+2014-01-27 14:55:27,807: INFO: 6986 records are updated
+2014-01-27 14:55:36,135: DEBUG: 
+2014-01-27 14:55:36,135: DEBUG: vtools show fields
+2014-01-27 14:55:36,136: DEBUG: Using temporary directory /tmp/tmpDbhPFQ
+2014-01-27 14:55:36,136: DEBUG: Opening project myproj.proj
+2014-01-27 14:55:36,140: DEBUG: No annotation database is attached.
+2014-01-27 14:55:45,318: DEBUG: 
+2014-01-27 14:55:45,318: DEBUG: vtools show table variant
+2014-01-27 14:55:45,319: DEBUG: Using temporary directory /tmp/tmp_2qFew
+2014-01-27 14:55:45,319: DEBUG: Opening project myproj.proj
+2014-01-27 14:59:17,318: DEBUG: 
+2014-01-27 14:59:17,319: DEBUG: vtools update variant --from_stat 'totalGD10=#(GT)' 'numGD10=#(alt)' 'hetGD10=#(het)' 'homGD10=#(hom)' 'otherGD10=#(other)' --genotypes 'DP_geno > 10'
+2014-01-27 14:59:17,319: DEBUG: Using temporary directory /tmp/tmp6Ho5OL
+2014-01-27 14:59:17,319: DEBUG: Opening project myproj.proj
+2014-01-27 14:59:19,707: INFO: Adding variant info field numGD10 with type INT
+2014-01-27 14:59:20,560: INFO: Adding variant info field homGD10 with type INT
+2014-01-27 14:59:21,072: INFO: Adding variant info field hetGD10 with type INT
+2014-01-27 14:59:21,534: INFO: Adding variant info field otherGD10 with type INT
+2014-01-27 14:59:22,026: INFO: Adding variant info field totalGD10 with type INT
+2014-01-27 14:59:23,066: INFO: 6976 records are updated
+2014-01-27 14:59:48,954: DEBUG: 
+2014-01-27 14:59:48,954: DEBUG: vtools show fields
+2014-01-27 14:59:48,955: DEBUG: Using temporary directory /tmp/tmpmdbut6
+2014-01-27 14:59:48,955: DEBUG: Opening project myproj.proj
+2014-01-27 14:59:48,959: DEBUG: No annotation database is attached.
+2014-01-27 14:59:56,525: DEBUG: 
+2014-01-27 14:59:56,525: DEBUG: vtools show table variant
+2014-01-27 14:59:56,526: DEBUG: Using temporary directory /tmp/tmpgsfSTl
+2014-01-27 14:59:56,526: DEBUG: Opening project myproj.proj
+2014-01-27 15:00:46,764: DEBUG: 
+2014-01-27 15:00:46,764: DEBUG: vtools update variant --set 'af=num/(total*2.0)'
+2014-01-27 15:00:46,765: DEBUG: Using temporary directory /tmp/tmpvVZpnC
+2014-01-27 15:00:46,765: DEBUG: Opening project myproj.proj
+2014-01-27 15:00:46,770: DEBUG: Running SELECT variant.num /(variant.total *2.0 ) FROM variant ;
+2014-01-27 15:00:46,771: INFO: Adding variant info field af with type FLOAT
+2014-01-27 15:00:46,772: DEBUG: ALTER TABLE variant ADD af FLOAT NULL;
+2014-01-27 15:00:47,057: DEBUG: Running UPDATE variant SET af=variant.num /(variant.total *2.0 );
+2014-01-27 15:00:54,258: DEBUG: 
+2014-01-27 15:00:54,258: DEBUG: vtools show fields
+2014-01-27 15:00:54,259: DEBUG: Using temporary directory /tmp/tmp1zFD2j
+2014-01-27 15:00:54,259: DEBUG: Opening project myproj.proj
+2014-01-27 15:00:54,263: DEBUG: No annotation database is attached.
+2014-01-27 15:01:04,220: DEBUG: 
+2014-01-27 15:01:04,221: DEBUG: vtools show table variant
+2014-01-27 15:01:04,221: DEBUG: Using temporary directory /tmp/tmpg4zlIA
+2014-01-27 15:01:04,221: DEBUG: Opening project myproj.proj
+2014-01-27 15:01:42,576: DEBUG: 
+2014-01-27 15:01:42,576: DEBUG: vtools update variant --set 'afGD10/(totalGD10*2.0)'
+2014-01-27 15:01:42,577: DEBUG: Using temporary directory /tmp/tmplV1NJd
+2014-01-27 15:01:42,577: DEBUG: Opening project myproj.proj
+2014-01-27 15:01:42,581: ERROR: Invalid parameter afGD10/(totalGD10*2.0), which should have format field=expr_of_field: need more than 1 value to unpack
+2014-01-27 15:02:09,352: DEBUG: 
+2014-01-27 15:02:09,352: DEBUG: vtools update variant --set 'afGD10=numGD10/(totalGD10*2.0)'
+2014-01-27 15:02:09,353: DEBUG: Using temporary directory /tmp/tmpQy0Oea
+2014-01-27 15:02:09,353: DEBUG: Opening project myproj.proj
+2014-01-27 15:02:09,359: DEBUG: Running SELECT variant.numGD10 /(variant.totalGD10 *2.0 ) FROM variant ;
+2014-01-27 15:02:09,359: INFO: Adding variant info field afGD10 with type FLOAT
+2014-01-27 15:02:09,360: DEBUG: ALTER TABLE variant ADD afGD10 FLOAT NULL;
+2014-01-27 15:02:09,603: DEBUG: Running UPDATE variant SET afGD10=variant.numGD10 /(variant.totalGD10 *2.0 );
+2014-01-27 15:02:32,244: DEBUG: 
+2014-01-27 15:02:32,244: DEBUG: vtools output variant chr pos af afGD10 --header -l 20
+2014-01-27 15:02:32,245: DEBUG: Using temporary directory /tmp/tmpAVtDuz
+2014-01-27 15:02:32,245: DEBUG: Opening project myproj.proj
+2014-01-27 15:02:32,252: DEBUG: Running query SELECT variant.chr ,variant.pos ,variant.af ,variant.afGD10  FROM variant      LIMIT 0,20;
+2014-01-27 15:03:13,596: DEBUG: 
+2014-01-27 15:03:13,597: DEBUG: vtools output variant chr pos af afGD10 --header -l 20
+2014-01-27 15:03:13,597: DEBUG: Using temporary directory /tmp/tmp1QNQfo
+2014-01-27 15:03:13,597: DEBUG: Opening project myproj.proj
+2014-01-27 15:03:13,604: DEBUG: Running query SELECT variant.chr ,variant.pos ,variant.af ,variant.afGD10  FROM variant      LIMIT 0,20;
+2014-01-27 15:04:14,322: DEBUG: 
+2014-01-27 15:04:14,322: DEBUG: vtools phenotype --set 'RACE=0' --samples "filename like 'YRI%'"
+2014-01-27 15:04:14,323: DEBUG: Using temporary directory /tmp/tmphxRu2j
+2014-01-27 15:04:14,323: DEBUG: Opening project myproj.proj
+2014-01-27 15:04:14,328: INFO: Adding phenotype RACE
+2014-01-27 15:04:14,495: INFO: 112 values of 1 phenotypes (1 new, 0 existing) of 112 samples are updated.
+2014-01-27 15:04:26,655: DEBUG: 
+2014-01-27 15:04:26,655: DEBUG: vtools phenotype --set 'RACE=1' --samples "filename like 'CEU%'"
+2014-01-27 15:04:26,656: DEBUG: Using temporary directory /tmp/tmp0xJilP
+2014-01-27 15:04:26,656: DEBUG: Opening project myproj.proj
+2014-01-27 15:04:26,663: INFO: 90 values of 1 phenotypes (0 new, 1 existing) of 90 samples are updated.
+2014-01-27 15:04:41,639: DEBUG: 
+2014-01-27 15:04:41,639: DEBUG: vtools show samples
+2014-01-27 15:04:41,640: DEBUG: Using temporary directory /tmp/tmpWa1xBY
+2014-01-27 15:04:41,640: DEBUG: Opening project myproj.proj
+2014-01-27 15:07:37,215: DEBUG: 
+2014-01-27 15:07:37,215: DEBUG: vtools update variant --from_stat 'CEU_totalGD10=#(GT)' 'CEU_numGD10=#(alt)' --genotypes 'DP_geno>10' --samples 'RACE=1'
+2014-01-27 15:07:37,216: DEBUG: Using temporary directory /tmp/tmpMWKsuh
+2014-01-27 15:07:37,216: DEBUG: Opening project myproj.proj
+2014-01-27 15:07:37,226: INFO: 90 samples are selected
+2014-01-27 15:07:38,093: INFO: Adding variant info field CEU_numGD10 with type INT
+2014-01-27 15:07:38,599: INFO: Adding variant info field CEU_totalGD10 with type INT
+2014-01-27 15:07:39,471: INFO: 3483 records are updated
+2014-01-27 15:07:58,977: DEBUG: 
+2014-01-27 15:07:58,978: DEBUG: vtools update variant --from_stat 'YRI_totalGD10=#(GT)' 'YRI_numGD10=#(alt)' --genotypes 'DP_geno>10' --samples 'RACE=0'
+2014-01-27 15:07:58,978: DEBUG: Using temporary directory /tmp/tmpwJUZCK
+2014-01-27 15:07:58,978: DEBUG: Opening project myproj.proj
+2014-01-27 15:07:58,988: INFO: 112 samples are selected
+2014-01-27 15:08:00,506: INFO: Adding variant info field YRI_numGD10 with type INT
+2014-01-27 15:08:01,020: INFO: Adding variant info field YRI_totalGD10 with type INT
+2014-01-27 15:08:01,972: INFO: 5167 records are updated
+2014-01-27 15:09:09,917: DEBUG: 
+2014-01-27 15:09:09,917: DEBUG: vtools update variant --set 'CEU_afGD10=CEU_numGD10/(CEU_totalGD10*2.0)'
+2014-01-27 15:09:09,918: DEBUG: Using temporary directory /tmp/tmpVPFIv3
+2014-01-27 15:09:09,918: DEBUG: Opening project myproj.proj
+2014-01-27 15:09:09,924: DEBUG: Running SELECT variant.CEU_numGD10 /(variant.CEU_totalGD10 *2.0 ) FROM variant ;
+2014-01-27 15:09:09,925: INFO: Adding variant info field CEU_afGD10 with type FLOAT
+2014-01-27 15:09:09,926: DEBUG: ALTER TABLE variant ADD CEU_afGD10 FLOAT NULL;
+2014-01-27 15:09:10,194: DEBUG: Running UPDATE variant SET CEU_afGD10=variant.CEU_numGD10 /(variant.CEU_totalGD10 *2.0 );
+2014-01-27 15:09:25,786: DEBUG: 
+2014-01-27 15:09:25,786: DEBUG: vtools update variant --set 'YRI_afGD10=YRI_numGD10/(YRI_totalGD10*2.0)'
+2014-01-27 15:09:25,787: DEBUG: Using temporary directory /tmp/tmp7ZBmVG
+2014-01-27 15:09:25,787: DEBUG: Opening project myproj.proj
+2014-01-27 15:09:25,793: DEBUG: Running SELECT variant.YRI_numGD10 /(variant.YRI_totalGD10 *2.0 ) FROM variant ;
+2014-01-27 15:09:25,794: INFO: Adding variant info field YRI_afGD10 with type FLOAT
+2014-01-27 15:09:25,795: DEBUG: ALTER TABLE variant ADD YRI_afGD10 FLOAT NULL;
+2014-01-27 15:09:26,078: DEBUG: Running UPDATE variant SET YRI_afGD10=variant.YRI_numGD10 /(variant.YRI_totalGD10 *2.0 );
+2014-01-27 15:09:59,992: DEBUG: 
+2014-01-27 15:09:59,992: DEBUG: vtools output variant chr pos afGD10 'CEU_afGD10' 'YRI_afGD10' --header -l 20
+2014-01-27 15:09:59,993: DEBUG: Using temporary directory /tmp/tmp_WtWsD
+2014-01-27 15:09:59,993: DEBUG: Opening project myproj.proj
+2014-01-27 15:10:00,001: DEBUG: Running query SELECT variant.chr ,variant.pos ,variant.afGD10 ,variant.CEU_afGD10 ,variant.YRI_afGD10  FROM variant      LIMIT 0,20;
+2014-01-27 15:12:25,628: DEBUG: 
+2014-01-27 15:12:25,628: DEBUG: vtools phenotype --from_stat 'CEU_totalGD10=#(GT)' 'CEU_numGD10=#(alt)' --genotypes 'DP_geno>10' --samples 'RACE=1'
+2014-01-27 15:12:25,629: DEBUG: Using temporary directory /tmp/tmpd72Gyw
+2014-01-27 15:12:25,629: DEBUG: Opening project myproj.proj
+2014-01-27 15:12:25,648: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_1 WHERE (DP_geno>10);
+2014-01-27 15:12:25,656: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_2 WHERE (DP_geno>10);
+2014-01-27 15:12:25,661: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_3 WHERE (DP_geno>10);
+2014-01-27 15:12:25,663: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_4 WHERE (DP_geno>10);
+2014-01-27 15:12:25,665: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_5 WHERE (DP_geno>10);
+2014-01-27 15:12:25,672: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_6 WHERE (DP_geno>10);
+2014-01-27 15:12:25,674: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_7 WHERE (DP_geno>10);
+2014-01-27 15:12:25,677: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_8 WHERE (DP_geno>10);
+2014-01-27 15:12:25,679: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_9 WHERE (DP_geno>10);
+2014-01-27 15:12:25,680: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_10 WHERE (DP_geno>10);
+2014-01-27 15:12:25,683: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_11 WHERE (DP_geno>10);
+2014-01-27 15:12:25,685: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_12 WHERE (DP_geno>10);
+2014-01-27 15:12:25,688: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_13 WHERE (DP_geno>10);
+2014-01-27 15:12:25,689: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_14 WHERE (DP_geno>10);
+2014-01-27 15:12:25,691: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_15 WHERE (DP_geno>10);
+2014-01-27 15:12:25,693: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_16 WHERE (DP_geno>10);
+2014-01-27 15:12:25,695: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_17 WHERE (DP_geno>10);
+2014-01-27 15:12:25,698: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_18 WHERE (DP_geno>10);
+2014-01-27 15:12:25,700: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_19 WHERE (DP_geno>10);
+2014-01-27 15:12:25,702: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_20 WHERE (DP_geno>10);
+2014-01-27 15:12:25,704: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_21 WHERE (DP_geno>10);
+2014-01-27 15:12:25,706: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_22 WHERE (DP_geno>10);
+2014-01-27 15:12:25,708: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_23 WHERE (DP_geno>10);
+2014-01-27 15:12:25,712: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_24 WHERE (DP_geno>10);
+2014-01-27 15:12:25,716: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_25 WHERE (DP_geno>10);
+2014-01-27 15:12:25,720: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_26 WHERE (DP_geno>10);
+2014-01-27 15:12:25,722: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_27 WHERE (DP_geno>10);
+2014-01-27 15:12:25,725: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_28 WHERE (DP_geno>10);
+2014-01-27 15:12:25,726: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_29 WHERE (DP_geno>10);
+2014-01-27 15:12:25,728: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_30 WHERE (DP_geno>10);
+2014-01-27 15:12:25,730: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_31 WHERE (DP_geno>10);
+2014-01-27 15:12:25,732: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_32 WHERE (DP_geno>10);
+2014-01-27 15:12:25,734: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_33 WHERE (DP_geno>10);
+2014-01-27 15:12:25,736: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_34 WHERE (DP_geno>10);
+2014-01-27 15:12:25,739: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_35 WHERE (DP_geno>10);
+2014-01-27 15:12:25,741: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_36 WHERE (DP_geno>10);
+2014-01-27 15:12:25,743: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_37 WHERE (DP_geno>10);
+2014-01-27 15:12:25,745: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_38 WHERE (DP_geno>10);
+2014-01-27 15:12:25,746: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_39 WHERE (DP_geno>10);
+2014-01-27 15:12:25,749: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_40 WHERE (DP_geno>10);
+2014-01-27 15:12:25,751: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_41 WHERE (DP_geno>10);
+2014-01-27 15:12:25,752: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_42 WHERE (DP_geno>10);
+2014-01-27 15:12:25,756: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_43 WHERE (DP_geno>10);
+2014-01-27 15:12:25,761: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_45 WHERE (DP_geno>10);
+2014-01-27 15:12:25,763: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_46 WHERE (DP_geno>10);
+2014-01-27 15:12:25,765: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_47 WHERE (DP_geno>10);
+2014-01-27 15:12:25,766: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_48 WHERE (DP_geno>10);
+2014-01-27 15:12:25,768: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_49 WHERE (DP_geno>10);
+2014-01-27 15:12:25,758: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_44 WHERE (DP_geno>10);
+2014-01-27 15:12:25,772: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_50 WHERE (DP_geno>10);
+2014-01-27 15:12:25,774: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_51 WHERE (DP_geno>10);
+2014-01-27 15:12:25,776: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_52 WHERE (DP_geno>10);
+2014-01-27 15:12:25,779: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_53 WHERE (DP_geno>10);
+2014-01-27 15:12:25,781: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_54 WHERE (DP_geno>10);
+2014-01-27 15:12:25,782: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_55 WHERE (DP_geno>10);
+2014-01-27 15:12:25,784: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_56 WHERE (DP_geno>10);
+2014-01-27 15:12:25,786: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_57 WHERE (DP_geno>10);
+2014-01-27 15:12:25,788: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_58 WHERE (DP_geno>10);
+2014-01-27 15:12:25,790: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_59 WHERE (DP_geno>10);
+2014-01-27 15:12:25,792: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_60 WHERE (DP_geno>10);
+2014-01-27 15:12:25,795: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_61 WHERE (DP_geno>10);
+2014-01-27 15:12:25,798: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_62 WHERE (DP_geno>10);
+2014-01-27 15:12:25,799: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_63 WHERE (DP_geno>10);
+2014-01-27 15:12:25,801: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_64 WHERE (DP_geno>10);
+2014-01-27 15:12:25,803: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_65 WHERE (DP_geno>10);
+2014-01-27 15:12:25,805: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_66 WHERE (DP_geno>10);
+2014-01-27 15:12:25,807: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_67 WHERE (DP_geno>10);
+2014-01-27 15:12:25,808: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_68 WHERE (DP_geno>10);
+2014-01-27 15:12:25,812: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_69 WHERE (DP_geno>10);
+2014-01-27 15:12:25,815: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_70 WHERE (DP_geno>10);
+2014-01-27 15:12:25,817: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_71 WHERE (DP_geno>10);
+2014-01-27 15:12:25,820: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_72 WHERE (DP_geno>10);
+2014-01-27 15:12:25,821: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_73 WHERE (DP_geno>10);
+2014-01-27 15:12:25,822: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_74 WHERE (DP_geno>10);
+2014-01-27 15:12:25,825: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_75 WHERE (DP_geno>10);
+2014-01-27 15:12:25,826: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_76 WHERE (DP_geno>10);
+2014-01-27 15:12:25,828: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_77 WHERE (DP_geno>10);
+2014-01-27 15:12:25,831: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_78 WHERE (DP_geno>10);
+2014-01-27 15:12:25,833: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_79 WHERE (DP_geno>10);
+2014-01-27 15:12:25,836: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_80 WHERE (DP_geno>10);
+2014-01-27 15:12:25,839: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_81 WHERE (DP_geno>10);
+2014-01-27 15:12:25,840: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_82 WHERE (DP_geno>10);
+2014-01-27 15:12:25,842: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_83 WHERE (DP_geno>10);
+2014-01-27 15:12:25,844: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_84 WHERE (DP_geno>10);
+2014-01-27 15:12:25,845: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_85 WHERE (DP_geno>10);
+2014-01-27 15:12:25,848: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_86 WHERE (DP_geno>10);
+2014-01-27 15:12:25,850: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_87 WHERE (DP_geno>10);
+2014-01-27 15:12:25,851: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_88 WHERE (DP_geno>10);
+2014-01-27 15:12:25,854: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_89 WHERE (DP_geno>10);
+2014-01-27 15:12:25,855: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_90 WHERE (DP_geno>10);
+2014-01-27 15:12:27,111: DEBUG: Adding phenotype CEU_totalGD10 of type INT
+2014-01-27 15:12:27,379: DEBUG: Adding phenotype CEU_numGD10 of type INT
+2014-01-27 15:12:27,389: INFO: 180 values of 2 phenotypes (2 new, 0 existing) of 90 samples are updated.
+2014-01-27 15:12:44,582: DEBUG: 
+2014-01-27 15:12:44,582: DEBUG: vtools phenotype --from_stat 'YRI_totalGD10=#(GT)' 'YRI_numGD10=#(alt)' --genotypes 'DP_geno>10' --samples 'RACE=0'
+2014-01-27 15:12:44,583: DEBUG: Using temporary directory /tmp/tmp1ZGecs
+2014-01-27 15:12:44,583: DEBUG: Opening project myproj.proj
+2014-01-27 15:12:44,607: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_91 WHERE (DP_geno>10);
+2014-01-27 15:12:44,613: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_92 WHERE (DP_geno>10);
+2014-01-27 15:12:44,617: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_93 WHERE (DP_geno>10);
+2014-01-27 15:12:44,620: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_94 WHERE (DP_geno>10);
+2014-01-27 15:12:44,625: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_95 WHERE (DP_geno>10);
+2014-01-27 15:12:44,627: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_96 WHERE (DP_geno>10);
+2014-01-27 15:12:44,633: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_97 WHERE (DP_geno>10);
+2014-01-27 15:12:44,634: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_98 WHERE (DP_geno>10);
+2014-01-27 15:12:44,635: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_99 WHERE (DP_geno>10);
+2014-01-27 15:12:44,636: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_100 WHERE (DP_geno>10);
+2014-01-27 15:12:44,639: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_101 WHERE (DP_geno>10);
+2014-01-27 15:12:44,645: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_102 WHERE (DP_geno>10);
+2014-01-27 15:12:44,645: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_103 WHERE (DP_geno>10);
+2014-01-27 15:12:44,649: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_104 WHERE (DP_geno>10);
+2014-01-27 15:12:44,652: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_105 WHERE (DP_geno>10);
+2014-01-27 15:12:44,657: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_106 WHERE (DP_geno>10);
+2014-01-27 15:12:44,658: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_107 WHERE (DP_geno>10);
+2014-01-27 15:12:44,661: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_108 WHERE (DP_geno>10);
+2014-01-27 15:12:44,664: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_109 WHERE (DP_geno>10);
+2014-01-27 15:12:44,667: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_110 WHERE (DP_geno>10);
+2014-01-27 15:12:44,673: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_111 WHERE (DP_geno>10);
+2014-01-27 15:12:44,673: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_112 WHERE (DP_geno>10);
+2014-01-27 15:12:44,676: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_113 WHERE (DP_geno>10);
+2014-01-27 15:12:44,678: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_114 WHERE (DP_geno>10);
+2014-01-27 15:12:44,682: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_115 WHERE (DP_geno>10);
+2014-01-27 15:12:44,684: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_116 WHERE (DP_geno>10);
+2014-01-27 15:12:44,686: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_117 WHERE (DP_geno>10);
+2014-01-27 15:12:44,690: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_118 WHERE (DP_geno>10);
+2014-01-27 15:12:44,691: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_119 WHERE (DP_geno>10);
+2014-01-27 15:12:44,697: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_120 WHERE (DP_geno>10);
+2014-01-27 15:12:44,698: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_121 WHERE (DP_geno>10);
+2014-01-27 15:12:44,701: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_122 WHERE (DP_geno>10);
+2014-01-27 15:12:44,705: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_123 WHERE (DP_geno>10);
+2014-01-27 15:12:44,706: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_124 WHERE (DP_geno>10);
+2014-01-27 15:12:44,709: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_125 WHERE (DP_geno>10);
+2014-01-27 15:12:44,711: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_126 WHERE (DP_geno>10);
+2014-01-27 15:12:44,715: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_127 WHERE (DP_geno>10);
+2014-01-27 15:12:44,720: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_128 WHERE (DP_geno>10);
+2014-01-27 15:12:44,724: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_129 WHERE (DP_geno>10);
+2014-01-27 15:12:44,726: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_130 WHERE (DP_geno>10);
+2014-01-27 15:12:44,729: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_131 WHERE (DP_geno>10);
+2014-01-27 15:12:44,731: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_132 WHERE (DP_geno>10);
+2014-01-27 15:12:44,734: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_133 WHERE (DP_geno>10);
+2014-01-27 15:12:44,734: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_134 WHERE (DP_geno>10);
+2014-01-27 15:12:44,737: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_135 WHERE (DP_geno>10);
+2014-01-27 15:12:44,739: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_136 WHERE (DP_geno>10);
+2014-01-27 15:12:44,741: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_137 WHERE (DP_geno>10);
+2014-01-27 15:12:44,745: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_138 WHERE (DP_geno>10);
+2014-01-27 15:12:44,749: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_139 WHERE (DP_geno>10);
+2014-01-27 15:12:44,752: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_140 WHERE (DP_geno>10);
+2014-01-27 15:12:44,756: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_141 WHERE (DP_geno>10);
+2014-01-27 15:12:44,760: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_142 WHERE (DP_geno>10);
+2014-01-27 15:12:44,764: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_143 WHERE (DP_geno>10);
+2014-01-27 15:12:44,767: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_144 WHERE (DP_geno>10);
+2014-01-27 15:12:44,769: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_145 WHERE (DP_geno>10);
+2014-01-27 15:12:44,772: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_146 WHERE (DP_geno>10);
+2014-01-27 15:12:44,775: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_147 WHERE (DP_geno>10);
+2014-01-27 15:12:44,778: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_148 WHERE (DP_geno>10);
+2014-01-27 15:12:44,781: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_149 WHERE (DP_geno>10);
+2014-01-27 15:12:44,783: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_150 WHERE (DP_geno>10);
+2014-01-27 15:12:44,786: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_151 WHERE (DP_geno>10);
+2014-01-27 15:12:44,789: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_152 WHERE (DP_geno>10);
+2014-01-27 15:12:44,790: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_153 WHERE (DP_geno>10);
+2014-01-27 15:12:44,794: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_154 WHERE (DP_geno>10);
+2014-01-27 15:12:44,796: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_155 WHERE (DP_geno>10);
+2014-01-27 15:12:44,798: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_156 WHERE (DP_geno>10);
+2014-01-27 15:12:44,801: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_157 WHERE (DP_geno>10);
+2014-01-27 15:12:44,804: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_158 WHERE (DP_geno>10);
+2014-01-27 15:12:44,809: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_159 WHERE (DP_geno>10);
+2014-01-27 15:12:44,811: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_160 WHERE (DP_geno>10);
+2014-01-27 15:12:44,817: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_161 WHERE (DP_geno>10);
+2014-01-27 15:12:44,819: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_162 WHERE (DP_geno>10);
+2014-01-27 15:12:44,822: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_163 WHERE (DP_geno>10);
+2014-01-27 15:12:44,823: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_164 WHERE (DP_geno>10);
+2014-01-27 15:12:44,826: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_165 WHERE (DP_geno>10);
+2014-01-27 15:12:44,828: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_166 WHERE (DP_geno>10);
+2014-01-27 15:12:44,832: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_167 WHERE (DP_geno>10);
+2014-01-27 15:12:44,837: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_168 WHERE (DP_geno>10);
+2014-01-27 15:12:44,841: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_169 WHERE (DP_geno>10);
+2014-01-27 15:12:44,843: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_170 WHERE (DP_geno>10);
+2014-01-27 15:12:44,848: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_171 WHERE (DP_geno>10);
+2014-01-27 15:12:44,852: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_172 WHERE (DP_geno>10);
+2014-01-27 15:12:44,854: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_173 WHERE (DP_geno>10);
+2014-01-27 15:12:44,856: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_174 WHERE (DP_geno>10);
+2014-01-27 15:12:44,859: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_175 WHERE (DP_geno>10);
+2014-01-27 15:12:44,862: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_176 WHERE (DP_geno>10);
+2014-01-27 15:12:44,864: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_177 WHERE (DP_geno>10);
+2014-01-27 15:12:44,867: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_178 WHERE (DP_geno>10);
+2014-01-27 15:12:44,869: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_179 WHERE (DP_geno>10);
+2014-01-27 15:12:44,871: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_180 WHERE (DP_geno>10);
+2014-01-27 15:12:44,876: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_181 WHERE (DP_geno>10);
+2014-01-27 15:12:44,879: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_182 WHERE (DP_geno>10);
+2014-01-27 15:12:44,882: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_183 WHERE (DP_geno>10);
+2014-01-27 15:12:44,883: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_184 WHERE (DP_geno>10);
+2014-01-27 15:12:44,885: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_185 WHERE (DP_geno>10);
+2014-01-27 15:12:44,886: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_186 WHERE (DP_geno>10);
+2014-01-27 15:12:44,888: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_187 WHERE (DP_geno>10);
+2014-01-27 15:12:44,891: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_188 WHERE (DP_geno>10);
+2014-01-27 15:12:44,897: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_189 WHERE (DP_geno>10);
+2014-01-27 15:12:44,901: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_190 WHERE (DP_geno>10);
+2014-01-27 15:12:44,904: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_191 WHERE (DP_geno>10);
+2014-01-27 15:12:44,907: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_192 WHERE (DP_geno>10);
+2014-01-27 15:12:44,912: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_193 WHERE (DP_geno>10);
+2014-01-27 15:12:44,916: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_194 WHERE (DP_geno>10);
+2014-01-27 15:12:44,919: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_195 WHERE (DP_geno>10);
+2014-01-27 15:12:44,922: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_196 WHERE (DP_geno>10);
+2014-01-27 15:12:44,926: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_197 WHERE (DP_geno>10);
+2014-01-27 15:12:44,928: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_198 WHERE (DP_geno>10);
+2014-01-27 15:12:44,932: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_199 WHERE (DP_geno>10);
+2014-01-27 15:12:44,935: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_200 WHERE (DP_geno>10);
+2014-01-27 15:12:44,941: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_201 WHERE (DP_geno>10);
+2014-01-27 15:12:44,943: DEBUG: SELECT count(*), sum(abs(GT)) FROM genotype_202 WHERE (DP_geno>10);
+2014-01-27 15:12:45,750: DEBUG: Adding phenotype YRI_totalGD10 of type INT
+2014-01-27 15:12:46,009: DEBUG: Adding phenotype YRI_numGD10 of type INT
+2014-01-27 15:12:46,020: INFO: 224 values of 2 phenotypes (2 new, 0 existing) of 112 samples are updated.
+2014-01-27 15:13:34,704: DEBUG: 
+2014-01-27 15:13:34,704: DEBUG: vtools phenotype --output 'CEU_totalGD10' 'CEU_numGD10' 'YRI_totalGD10' 'YRI_numGD10'
+2014-01-27 15:13:34,705: DEBUG: Using temporary directory /tmp/tmp5FCqq6
+2014-01-27 15:13:34,705: DEBUG: Opening project myproj.proj
+2014-01-27 15:13:34,709: DEBUG: SELECT CEU_totalGD10,CEU_numGD10,YRI_totalGD10,YRI_numGD10 FROM sample LEFT JOIN filename ON sample.file_id = filename.file_id  
+2014-01-27 15:13:39,932: DEBUG: 
+2014-01-27 15:13:39,934: DEBUG: vtools phenotype --output 'CEU_totalGD10' 'CEU_numGD10' 'YRI_totalGD10' 'YRI_numGD10'
+2014-01-27 15:13:39,935: DEBUG: Using temporary directory /tmp/tmpMPohmj
+2014-01-27 15:13:39,935: DEBUG: Opening project myproj.proj
+2014-01-27 15:13:39,939: DEBUG: SELECT CEU_totalGD10,CEU_numGD10,YRI_totalGD10,YRI_numGD10 FROM sample LEFT JOIN filename ON sample.file_id = filename.file_id  
+2014-01-27 15:13:53,992: DEBUG: 
+2014-01-27 15:13:53,992: DEBUG: vtools phenotype --output 'CEU_totalGD10' 'CEU_numGD10' 'YRI_totalGD10' 'YRI_numGD10' --header
+2014-01-27 15:13:53,993: DEBUG: Using temporary directory /tmp/tmpE7YkBI
+2014-01-27 15:13:53,993: DEBUG: Opening project myproj.proj
+2014-01-27 15:13:53,997: DEBUG: SELECT CEU_totalGD10,CEU_numGD10,YRI_totalGD10,YRI_numGD10 FROM sample LEFT JOIN filename ON sample.file_id = filename.file_id  
+2014-01-27 15:14:00,140: DEBUG: 
+2014-01-27 15:14:00,140: DEBUG: vtools phenotype --output 'CEU_totalGD10' 'CEU_numGD10' 'YRI_totalGD10' 'YRI_numGD10' --header -l 20
+2014-01-27 15:14:00,141: DEBUG: Using temporary directory /tmp/tmpzr6QrX
+2014-01-27 15:14:00,141: DEBUG: Opening project myproj.proj
+2014-01-27 15:14:00,145: DEBUG: SELECT CEU_totalGD10,CEU_numGD10,YRI_totalGD10,YRI_numGD10 FROM sample LEFT JOIN filename ON sample.file_id = filename.file_id   LIMIT 0,20
+2014-01-27 15:14:58,009: DEBUG: 
+2014-01-27 15:14:58,009: DEBUG: vtools remove genotypes 'DP_geno<10' -v0
+2014-01-27 15:14:58,010: DEBUG: Using temporary directory /tmp/tmp6iJceW
+2014-01-27 15:14:58,010: DEBUG: Opening project myproj.proj
+2014-01-27 15:14:58,020: INFO: Removing genotypes from 202 samples using criteria "(DP_geno<10)"
+2014-01-27 15:14:58,023: INFO: 344 genotypes are removed from sample NA06984
+2014-01-27 15:14:58,028: INFO: 1061 genotypes are removed from sample NA06985
+2014-01-27 15:14:58,030: INFO: 42 genotypes are removed from sample NA06986
+2014-01-27 15:14:58,033: INFO: 422 genotypes are removed from sample NA06989
+2014-01-27 15:14:58,038: INFO: 1147 genotypes are removed from sample NA06994
+2014-01-27 15:14:58,041: INFO: 256 genotypes are removed from sample NA07000
+2014-01-27 15:14:58,044: INFO: 322 genotypes are removed from sample NA07037
+2014-01-27 15:14:58,046: INFO: 60 genotypes are removed from sample NA07048
+2014-01-27 15:14:58,047: INFO: 42 genotypes are removed from sample NA07051
+2014-01-27 15:14:58,049: INFO: 57 genotypes are removed from sample NA07346
+2014-01-27 15:14:58,051: INFO: 74 genotypes are removed from sample NA07347
+2014-01-27 15:14:58,053: INFO: 65 genotypes are removed from sample NA07357
+2014-01-27 15:14:58,057: INFO: 592 genotypes are removed from sample NA10847
+2014-01-27 15:14:58,061: INFO: 729 genotypes are removed from sample NA10851
+2014-01-27 15:14:58,063: INFO: 47 genotypes are removed from sample NA11829
+2014-01-27 15:14:58,065: INFO: 277 genotypes are removed from sample NA11830
+2014-01-27 15:14:58,067: INFO: 45 genotypes are removed from sample NA11831
+2014-01-27 15:14:58,069: INFO: 45 genotypes are removed from sample NA11832
+2014-01-27 15:14:58,073: INFO: 1012 genotypes are removed from sample NA11840
+2014-01-27 15:14:58,077: INFO: 581 genotypes are removed from sample NA11843
+2014-01-27 15:14:58,081: INFO: 733 genotypes are removed from sample NA11881
+2014-01-27 15:14:58,084: INFO: 358 genotypes are removed from sample NA11893
+2014-01-27 15:14:58,086: INFO: 89 genotypes are removed from sample NA11918
+2014-01-27 15:14:58,088: INFO: 255 genotypes are removed from sample NA11919
+2014-01-27 15:14:58,090: INFO: 47 genotypes are removed from sample NA11920
+2014-01-27 15:14:58,092: INFO: 66 genotypes are removed from sample NA11930
+2014-01-27 15:14:58,094: INFO: 39 genotypes are removed from sample NA11992
+2014-01-27 15:14:58,096: INFO: 64 genotypes are removed from sample NA11994
+2014-01-27 15:14:58,214: INFO: 969 genotypes are removed from sample NA11995
+2014-01-27 15:14:58,218: INFO: 77 genotypes are removed from sample NA12003
+2014-01-27 15:14:58,228: INFO: 1350 genotypes are removed from sample NA12004
+2014-01-27 15:14:58,231: INFO: 276 genotypes are removed from sample NA12005
+2014-01-27 15:14:58,236: INFO: 1069 genotypes are removed from sample NA12006
+2014-01-27 15:14:58,238: INFO: 99 genotypes are removed from sample NA12043
+2014-01-27 15:14:58,241: INFO: 472 genotypes are removed from sample NA12044
+2014-01-27 15:14:58,243: INFO: 43 genotypes are removed from sample NA12045
+2014-01-27 15:14:58,246: INFO: 437 genotypes are removed from sample NA12058
+2014-01-27 15:14:58,249: INFO: 102 genotypes are removed from sample NA12144
+2014-01-27 15:14:58,252: INFO: 212 genotypes are removed from sample NA12154
+2014-01-27 15:14:58,254: INFO: 58 genotypes are removed from sample NA12155
+2014-01-27 15:14:58,259: INFO: 1322 genotypes are removed from sample NA12156
+2014-01-27 15:14:58,261: INFO: 88 genotypes are removed from sample NA12234
+2014-01-27 15:14:58,265: INFO: 710 genotypes are removed from sample NA12249
+2014-01-27 15:14:58,269: INFO: 641 genotypes are removed from sample NA12272
+2014-01-27 15:14:58,272: INFO: 561 genotypes are removed from sample NA12273
+2014-01-27 15:14:58,276: INFO: 664 genotypes are removed from sample NA12275
+2014-01-27 15:14:58,280: INFO: 713 genotypes are removed from sample NA12282
+2014-01-27 15:14:58,284: INFO: 596 genotypes are removed from sample NA12283
+2014-01-27 15:14:58,287: INFO: 514 genotypes are removed from sample NA12286
+2014-01-27 15:14:58,290: INFO: 169 genotypes are removed from sample NA12287
+2014-01-27 15:14:58,293: INFO: 450 genotypes are removed from sample NA12340
+2014-01-27 15:14:58,296: INFO: 628 genotypes are removed from sample NA12341
+2014-01-27 15:14:58,300: INFO: 462 genotypes are removed from sample NA12342
+2014-01-27 15:14:58,303: INFO: 272 genotypes are removed from sample NA12347
+2014-01-27 15:14:58,306: INFO: 512 genotypes are removed from sample NA12348
+2014-01-27 15:14:58,413: INFO: 45 genotypes are removed from sample NA12383
+2014-01-27 15:14:58,419: INFO: 693 genotypes are removed from sample NA12400
+2014-01-27 15:14:58,427: INFO: 48 genotypes are removed from sample NA12413
+2014-01-27 15:14:58,432: INFO: 470 genotypes are removed from sample NA12414
+2014-01-27 15:14:58,434: INFO: 120 genotypes are removed from sample NA12489
+2014-01-27 15:14:58,436: INFO: 51 genotypes are removed from sample NA12546
+2014-01-27 15:14:58,440: INFO: 465 genotypes are removed from sample NA12716
+2014-01-27 15:14:58,444: INFO: 766 genotypes are removed from sample NA12717
+2014-01-27 15:14:58,447: INFO: 637 genotypes are removed from sample NA12718
+2014-01-27 15:14:58,449: INFO: 50 genotypes are removed from sample NA12748
+2014-01-27 15:14:58,452: INFO: 237 genotypes are removed from sample NA12749
+2014-01-27 15:14:58,456: INFO: 680 genotypes are removed from sample NA12750
+2014-01-27 15:14:58,460: INFO: 672 genotypes are removed from sample NA12751
+2014-01-27 15:14:58,463: INFO: 376 genotypes are removed from sample NA12760
+2014-01-27 15:14:58,467: INFO: 992 genotypes are removed from sample NA12761
+2014-01-27 15:14:58,470: INFO: 151 genotypes are removed from sample NA12762
+2014-01-27 15:14:58,474: INFO: 1075 genotypes are removed from sample NA12763
+2014-01-27 15:14:58,477: INFO: 165 genotypes are removed from sample NA12775
+2014-01-27 15:14:58,480: INFO: 208 genotypes are removed from sample NA12776
+2014-01-27 15:14:58,484: INFO: 711 genotypes are removed from sample NA12812
+2014-01-27 15:14:58,487: INFO: 319 genotypes are removed from sample NA12814
+2014-01-27 15:14:58,492: INFO: 1189 genotypes are removed from sample NA12815
+2014-01-27 15:14:58,494: INFO: 133 genotypes are removed from sample NA12828
+2014-01-27 15:14:58,496: INFO: 87 genotypes are removed from sample NA12829
+2014-01-27 15:14:58,499: INFO: 145 genotypes are removed from sample NA12830
+2014-01-27 15:14:58,504: INFO: 1274 genotypes are removed from sample NA12842
+2014-01-27 15:14:58,507: INFO: 337 genotypes are removed from sample NA12843
+2014-01-27 15:14:58,630: INFO: 1251 genotypes are removed from sample NA12872
+2014-01-27 15:14:58,640: INFO: 1326 genotypes are removed from sample NA12873
+2014-01-27 15:14:58,645: INFO: 1057 genotypes are removed from sample NA12874
+2014-01-27 15:14:58,646: INFO: 9 genotypes are removed from sample NA12878
+2014-01-27 15:14:58,653: INFO: 2038 genotypes are removed from sample NA12889
+2014-01-27 15:14:58,655: INFO: 36 genotypes are removed from sample NA12890
+2014-01-27 15:14:58,656: INFO: 15 genotypes are removed from sample NA12891
+2014-01-27 15:14:58,658: INFO: 2 genotypes are removed from sample NA12892
+2014-01-27 15:14:58,661: INFO: 215 genotypes are removed from sample NA18486
+2014-01-27 15:14:58,665: INFO: 337 genotypes are removed from sample NA18488
+2014-01-27 15:14:58,671: INFO: 1020 genotypes are removed from sample NA18489
+2014-01-27 15:14:58,675: INFO: 604 genotypes are removed from sample NA18498
+2014-01-27 15:14:58,681: INFO: 1030 genotypes are removed from sample NA18499
+2014-01-27 15:14:58,686: INFO: 531 genotypes are removed from sample NA18501
+2014-01-27 15:14:58,692: INFO: 1807 genotypes are removed from sample NA18504
+2014-01-27 15:14:58,697: INFO: 807 genotypes are removed from sample NA18508
+2014-01-27 15:14:58,703: INFO: 1886 genotypes are removed from sample NA18516
+2014-01-27 15:14:58,707: INFO: 191 genotypes are removed from sample NA18519
+2014-01-27 15:14:58,710: INFO: 148 genotypes are removed from sample NA18520
+2014-01-27 15:14:58,714: INFO: 1134 genotypes are removed from sample NA18522
+2014-01-27 15:14:58,717: INFO: 93 genotypes are removed from sample NA18523
+2014-01-27 15:14:58,721: INFO: 293 genotypes are removed from sample NA18853
+2014-01-27 15:14:58,725: INFO: 89 genotypes are removed from sample NA18856
+2014-01-27 15:14:58,728: INFO: 104 genotypes are removed from sample NA18858
+2014-01-27 15:14:58,732: INFO: 420 genotypes are removed from sample NA18861
+2014-01-27 15:14:58,851: INFO: 2989 genotypes are removed from sample NA18865
+2014-01-27 15:14:58,855: INFO: 185 genotypes are removed from sample NA18867
+2014-01-27 15:14:58,859: INFO: 448 genotypes are removed from sample NA18868
+2014-01-27 15:14:58,865: INFO: 1831 genotypes are removed from sample NA18870
+2014-01-27 15:14:58,872: INFO: 2100 genotypes are removed from sample NA18871
+2014-01-27 15:14:58,875: INFO: 147 genotypes are removed from sample NA18877
+2014-01-27 15:14:58,879: INFO: 429 genotypes are removed from sample NA18881
+2014-01-27 15:14:58,885: INFO: 892 genotypes are removed from sample NA18907
+2014-01-27 15:14:58,891: INFO: 1120 genotypes are removed from sample NA18909
+2014-01-27 15:14:58,895: INFO: 164 genotypes are removed from sample NA18910
+2014-01-27 15:14:58,899: INFO: 478 genotypes are removed from sample NA18915
+2014-01-27 15:14:58,904: INFO: 504 genotypes are removed from sample NA18916
+2014-01-27 15:14:58,910: INFO: 1162 genotypes are removed from sample NA18917
+2014-01-27 15:14:58,915: INFO: 995 genotypes are removed from sample NA18923
+2014-01-27 15:14:58,920: INFO: 952 genotypes are removed from sample NA18924
+2014-01-27 15:14:58,926: INFO: 1079 genotypes are removed from sample NA18933
+2014-01-27 15:14:58,931: INFO: 971 genotypes are removed from sample NA18934
+2014-01-27 15:14:58,935: INFO: 255 genotypes are removed from sample NA19092
+2014-01-27 15:14:58,940: INFO: 663 genotypes are removed from sample NA19095
+2014-01-27 15:14:59,049: INFO: 592 genotypes are removed from sample NA19096
+2014-01-27 15:14:59,060: INFO: 1125 genotypes are removed from sample NA19098
+2014-01-27 15:14:59,070: INFO: 2198 genotypes are removed from sample NA19102
+2014-01-27 15:14:59,075: INFO: 594 genotypes are removed from sample NA19105
+2014-01-27 15:14:59,078: INFO: 81 genotypes are removed from sample NA19108
+2014-01-27 15:14:59,083: INFO: 686 genotypes are removed from sample NA19113
+2014-01-27 15:14:59,089: INFO: 1027 genotypes are removed from sample NA19116
+2014-01-27 15:14:59,093: INFO: 627 genotypes are removed from sample NA19117
+2014-01-27 15:14:59,098: INFO: 560 genotypes are removed from sample NA19118
+2014-01-27 15:14:59,104: INFO: 1075 genotypes are removed from sample NA19119
+2014-01-27 15:14:59,108: INFO: 466 genotypes are removed from sample NA19121
+2014-01-27 15:14:59,113: INFO: 682 genotypes are removed from sample NA19122
+2014-01-27 15:14:59,117: INFO: 323 genotypes are removed from sample NA19130
+2014-01-27 15:14:59,123: INFO: 1168 genotypes are removed from sample NA19131
+2014-01-27 15:14:59,127: INFO: 256 genotypes are removed from sample NA19133
+2014-01-27 15:14:59,131: INFO: 345 genotypes are removed from sample NA19135
+2014-01-27 15:14:59,139: INFO: 1957 genotypes are removed from sample NA19137
+2014-01-27 15:14:59,261: INFO: 1116 genotypes are removed from sample NA19138
+2014-01-27 15:14:59,272: INFO: 1127 genotypes are removed from sample NA19141
+2014-01-27 15:14:59,279: INFO: 993 genotypes are removed from sample NA19143
+2014-01-27 15:14:59,284: INFO: 710 genotypes are removed from sample NA19146
+2014-01-27 15:14:59,288: INFO: 552 genotypes are removed from sample NA19149
+2014-01-27 15:14:59,293: INFO: 645 genotypes are removed from sample NA19150
+2014-01-27 15:14:59,299: INFO: 977 genotypes are removed from sample NA19152
+2014-01-27 15:14:59,304: INFO: 1010 genotypes are removed from sample NA19153
+2014-01-27 15:14:59,309: INFO: 411 genotypes are removed from sample NA19156
+2014-01-27 15:14:59,312: INFO: 217 genotypes are removed from sample NA19157
+2014-01-27 15:14:59,318: INFO: 1051 genotypes are removed from sample NA19159
+2014-01-27 15:14:59,323: INFO: 499 genotypes are removed from sample NA19163
+2014-01-27 15:14:59,327: INFO: 171 genotypes are removed from sample NA19166
+2014-01-27 15:14:59,331: INFO: 399 genotypes are removed from sample NA19168
+2014-01-27 15:14:59,337: INFO: 1033 genotypes are removed from sample NA19171
+2014-01-27 15:14:59,342: INFO: 641 genotypes are removed from sample NA19172
+2014-01-27 15:14:59,347: INFO: 580 genotypes are removed from sample NA19175
+2014-01-27 15:14:59,352: INFO: 747 genotypes are removed from sample NA19179
+2014-01-27 15:14:59,472: INFO: 1465 genotypes are removed from sample NA19181
+2014-01-27 15:14:59,478: INFO: 630 genotypes are removed from sample NA19182
+2014-01-27 15:14:59,483: INFO: 603 genotypes are removed from sample NA19184
+2014-01-27 15:14:59,488: INFO: 506 genotypes are removed from sample NA19185
+2014-01-27 15:14:59,492: INFO: 600 genotypes are removed from sample NA19187
+2014-01-27 15:14:59,496: INFO: 77 genotypes are removed from sample NA19189
+2014-01-27 15:14:59,500: INFO: 354 genotypes are removed from sample NA19190
+2014-01-27 15:14:59,504: INFO: 446 genotypes are removed from sample NA19195
+2014-01-27 15:14:59,509: INFO: 463 genotypes are removed from sample NA19196
+2014-01-27 15:14:59,515: INFO: 1057 genotypes are removed from sample NA19197
+2014-01-27 15:14:59,520: INFO: 980 genotypes are removed from sample NA19198
+2014-01-27 15:14:59,526: INFO: 1003 genotypes are removed from sample NA19200
+2014-01-27 15:14:59,531: INFO: 1233 genotypes are removed from sample NA19201
+2014-01-27 15:14:59,537: INFO: 1031 genotypes are removed from sample NA19204
+2014-01-27 15:14:59,543: INFO: 1005 genotypes are removed from sample NA19206
+2014-01-27 15:14:59,549: INFO: 1356 genotypes are removed from sample NA19207
+2014-01-27 15:14:59,554: INFO: 1095 genotypes are removed from sample NA19209
+2014-01-27 15:14:59,561: INFO: 1724 genotypes are removed from sample NA19210
+2014-01-27 15:14:59,662: INFO: 160 genotypes are removed from sample NA19213
+2014-01-27 15:14:59,672: INFO: 584 genotypes are removed from sample NA19214
+2014-01-27 15:14:59,677: INFO: 461 genotypes are removed from sample NA19216
+2014-01-27 15:14:59,682: INFO: 604 genotypes are removed from sample NA19217
+2014-01-27 15:14:59,690: INFO: 1792 genotypes are removed from sample NA19220
+2014-01-27 15:14:59,693: INFO: 56 genotypes are removed from sample NA19222
+2014-01-27 15:14:59,699: INFO: 1047 genotypes are removed from sample NA19223
+2014-01-27 15:14:59,702: INFO: 68 genotypes are removed from sample NA19225
+2014-01-27 15:14:59,705: INFO: 190 genotypes are removed from sample NA19229
+2014-01-27 15:14:59,709: INFO: 349 genotypes are removed from sample NA19235
+2014-01-27 15:14:59,713: INFO: 308 genotypes are removed from sample NA19236
+2014-01-27 15:14:59,716: INFO: 67 genotypes are removed from sample NA19238
+2014-01-27 15:14:59,718: INFO: 6 genotypes are removed from sample NA19239
+2014-01-27 15:14:59,720: INFO: 9 genotypes are removed from sample NA19240
+2014-01-27 15:14:59,724: INFO: 302 genotypes are removed from sample NA19247
+2014-01-27 15:14:59,728: INFO: 267 genotypes are removed from sample NA19248
+2014-01-27 15:14:59,733: INFO: 652 genotypes are removed from sample NA19250
+2014-01-27 15:14:59,736: INFO: 81 genotypes are removed from sample NA19253
+2014-01-27 15:14:59,739: INFO: 123 genotypes are removed from sample NA19257
+2014-01-27 15:14:59,744: INFO: 678 genotypes are removed from sample NA19259
+2014-01-27 15:14:59,865: INFO: 498 genotypes are removed from sample NA19260
+2014-01-27 15:14:59,874: INFO: 483 genotypes are removed from sample NA19262
+2014-01-27 15:14:59,877: INFO: 127 genotypes are removed from sample NA19266
+2014-01-27 15:16:00,242: DEBUG: 
+2014-01-27 15:16:00,243: DEBUG: vtools output variant chr pos pos ref alt
+2014-01-27 15:16:00,243: DEBUG: Using temporary directory /tmp/tmpQXS9Jo
+2014-01-27 15:16:00,243: DEBUG: Opening project myproj.proj
+2014-01-27 15:16:00,249: DEBUG: Running query SELECT variant.chr ,variant.pos ,variant.pos ,variant.ref ,variant.alt  FROM variant     ;
+2014-01-27 15:17:17,475: DEBUG: 
+2014-01-27 15:17:17,475: DEBUG: vtools update variant --format 'ANNOVAR_exonic_variant_function' --from_file 'allvariants.dat.exonic_variant_function' --build hg18
+2014-01-27 15:17:17,476: DEBUG: Using temporary directory /tmp/tmpVhAAMO
+2014-01-27 15:17:17,476: DEBUG: Opening project myproj.proj
+2014-01-27 15:17:17,643: DEBUG: Creating local indexes for 6,986 variants
+2014-01-27 15:17:17,699: INFO: Updating variants from allvariants.dat.exonic_variant_function (1/1)
+2014-01-27 15:17:28,971: INFO: Field mut_type of 6,954 variants are updated
+2014-01-27 15:17:56,988: DEBUG: 
+2014-01-27 15:17:56,988: DEBUG: vtools output variant chr pos ref alt 'mut_type' -l 20 --header
+2014-01-27 15:17:56,989: DEBUG: Using temporary directory /tmp/tmp5JIIYR
+2014-01-27 15:17:56,989: DEBUG: Opening project myproj.proj
+2014-01-27 15:17:56,996: DEBUG: Running query SELECT variant.chr ,variant.pos ,variant.ref ,variant.alt ,variant.mut_type  FROM variant      LIMIT 0,20;
+2014-01-27 15:18:10,052: DEBUG: 
+2014-01-27 15:18:10,052: DEBUG: vtools show fields
+2014-01-27 15:18:10,053: DEBUG: Using temporary directory /tmp/tmpruHY9_
+2014-01-27 15:18:10,053: DEBUG: Opening project myproj.proj
+2014-01-27 15:18:10,057: DEBUG: No annotation database is attached.
+2014-01-27 15:18:19,619: DEBUG: 
+2014-01-27 15:18:19,619: DEBUG: vtools show table variant
+2014-01-27 15:18:19,620: DEBUG: Using temporary directory /tmp/tmpTvaDM8
+2014-01-27 15:18:19,620: DEBUG: Opening project myproj.proj
+2014-01-27 15:22:03,519: DEBUG: 
+2014-01-27 15:22:03,519: DEBUG: vtools select variant "mut_type like 'nonsynonymous%' OR mut_type like 'splicing%' OR mut_type like 'stoploss%' OR mut_type like 'stopgain%' OR mut_type like 'ncRNA%' " -t 'v_funct'
+2014-01-27 15:22:03,520: DEBUG: Using temporary directory /tmp/tmp_Wwadk
+2014-01-27 15:22:03,520: DEBUG: Opening project myproj.proj
+2014-01-27 15:22:04,060: DEBUG: Running query INSERT INTO v_funct SELECT DISTINCT variant.variant_id FROM variant   WHERE ((variant.mut_type like 'nonsynonymous%'OR variant.mut_type like 'splicing%'OR variant.mut_type like 'stoploss%'OR variant.mut_type like 'stopgain%'OR variant.mut_type like 'ncRNA%'));
+2014-01-27 15:22:04,217: INFO: 3653 variants selected.
+2014-01-27 15:22:22,286: DEBUG: 
+2014-01-27 15:22:22,286: DEBUG: vtools phenotype --from_file 'phenotypes.txt'
+2014-01-27 15:22:22,287: DEBUG: Using temporary directory /tmp/tmpH9nX1V
+2014-01-27 15:22:22,287: DEBUG: Opening project myproj.proj
+2014-01-27 15:22:22,513: INFO: Adding phenotype SEX of type INT
+2014-01-27 15:22:22,514: DEBUG: Executing ALTER TABLE sample ADD SEX INT NULL;
+2014-01-27 15:22:22,810: INFO: Adding phenotype BMI of type FLOAT
+2014-01-27 15:22:22,810: DEBUG: Executing ALTER TABLE sample ADD BMI FLOAT NULL;
+2014-01-27 15:22:23,136: INFO: 3 field (2 new, 1 existing) phenotypes of 202 samples are updated.
+2014-01-27 15:22:30,854: DEBUG: 
+2014-01-27 15:22:30,854: DEBUG: vtools show samples
+2014-01-27 15:22:30,855: DEBUG: Using temporary directory /tmp/tmpDkhzei
+2014-01-27 15:22:30,855: DEBUG: Opening project myproj.proj
+2014-01-27 15:22:50,961: DEBUG: 
+2014-01-27 15:22:50,962: DEBUG: vtools show samples
+2014-01-27 15:22:50,962: DEBUG: Using temporary directory /tmp/tmpFP31XU
+2014-01-27 15:22:50,962: DEBUG: Opening project myproj.proj
+2014-01-27 15:23:35,457: DEBUG: 
+2014-01-27 15:23:35,458: DEBUG: vtools select variant --samples 'RACE=1' -t CEU
+2014-01-27 15:23:35,458: DEBUG: Using temporary directory /tmp/tmp0Q3cz8
+2014-01-27 15:23:35,459: DEBUG: Opening project myproj.proj
+2014-01-27 15:23:35,468: INFO: 90 samples are selected by condition: RACE=1
+2014-01-27 15:23:36,504: DEBUG: Running query INSERT INTO CEU SELECT DISTINCT variant.variant_id FROM variant   WHERE 1  AND (variant.variant_id IN (SELECT variant_id FROM __variants_from_samples));
+2014-01-27 15:23:36,684: INFO: 3484 variants selected.

@@ -1,0 +1,32 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --file GWAS
+  --mind 0.10
+  --out GWAS_clean_mind
+  --recode
+
+Hostname: c0117
+Working directory: /data/user/home/smith52/GWAS-Tutorial/leal/cleaning
+Start time: Wed Aug 20 12:57:09 2025
+
+Random number seed: 1755712629
+192039 MB RAM detected; reserving 96019 MB for main workspace.
+Scanning .ped file... done.
+Performing single-pass .bed write (6424 variants, 248 people).
+--file: GWAS_clean_mind-temporary.bed + GWAS_clean_mind-temporary.bim +
+GWAS_clean_mind-temporary.fam written.
+6424 variants loaded from .bim file.
+248 people (125 males, 123 females) loaded from .fam.
+1 person removed due to missing genotype data (--mind).
+ID written to GWAS_clean_mind.irem .
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 247 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 6 het. haploid genotypes present (see GWAS_clean_mind.hh ); many
+commands treat these as missing.
+Total genotyping rate in remaining samples is 0.996863.
+6424 variants and 247 people pass filters and QC.
+Note: No phenotypes present.
+--recode ped to GWAS_clean_mind.ped + GWAS_clean_mind.map ... done.
+
+End time: Wed Aug 20 12:57:09 2025

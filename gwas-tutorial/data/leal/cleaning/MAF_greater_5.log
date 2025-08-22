@@ -1,0 +1,32 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --file GWAS_clean_mind
+  --maf 0.05
+  --out MAF_greater_5
+  --recode
+
+Hostname: c0189
+Working directory: /data/user/home/smith52/GWAS-Tutorial/leal/cleaning
+Start time: Wed Aug 20 13:20:26 2025
+
+Random number seed: 1755714026
+772506 MB RAM detected; reserving 386253 MB for main workspace.
+Scanning .ped file... done.
+Performing single-pass .bed write (6424 variants, 247 people).
+--file: MAF_greater_5-temporary.bed + MAF_greater_5-temporary.bim +
+MAF_greater_5-temporary.fam written.
+6424 variants loaded from .bim file.
+247 people (125 males, 122 females) loaded from .fam.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 247 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Warning: 6 het. haploid genotypes present (see MAF_greater_5.hh ); many
+commands treat these as missing.
+Total genotyping rate is 0.996863.
+556 variants removed due to minor allele threshold(s)
+(--maf/--max-maf/--mac/--max-mac).
+5868 variants and 247 people pass filters and QC.
+Note: No phenotypes present.
+--recode ped to MAF_greater_5.ped + MAF_greater_5.map ... done.
+
+End time: Wed Aug 20 13:20:26 2025
